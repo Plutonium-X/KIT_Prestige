@@ -1,0 +1,1112 @@
+
+BACKUP ~PPK/backup~
+AUTHOR ~Inesius@Naver.com~
+VERSION ~v4~
+AUTO_TRA ~PPK/Language/%s~
+README ~PPK/Language/%LANGUAGE%/Readme.txt~ ~PPK/Language/English/Readme.txt~
+
+ALWAYS
+	INCLUDE ~PPK/fl#add_kit_ee.tpa~
+	ACTION_DEFINE_ARRAY px_reload BEGIN
+		~Setup.tra~
+		END
+		ACTION_DEFINE_ARRAY px_noconvert BEGIN END
+			LAF HANDLE_CHARSETS
+			INT_VAR
+			infer_charset = 1
+			STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/Language~
+			noconvert_array = px_noconvert
+			reload_array = px_reload
+		END	
+	END
+
+LANGUAGE ~한국어~
+         ~korean~
+         ~PPK/Language/korean/setup.tra~
+LANGUAGE ~English~
+         ~english~
+         ~PPK/Language/english/setup.tra~
+LANGUAGE ~French~
+         ~french~
+         ~PPK/Language/french/setup.tra~
+LANGUAGE ~Russian~
+         ~russian~
+         ~PPK/Language/russian/setup.tra~
+
+BEGIN @20
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+/*일괄 복사*/
+COPY ~ppk/data~ ~override~
+COPY ~ppk/spell~ ~override~
+
+/*포트레이트 아이콘*/
+COPY ~ppk/data/states.bam~ ~override/states2.bam~
+COPY ~ppk/data/statdesc.2da~ ~override/statdesc.2da~
+  REPLACE ~IBSTB~ @121
+  REPLACE ~INCOR~ @111
+  REPLACE ~HARMO~ @185
+  REPLACE ~UNMOV~ @101
+  REPLACE ~UNSTO~ @103
+  REPLACE ~MDEYE~ @109
+  REPLACE ~SMEVL~ @115
+  REPLACE ~TMPST~ @117
+  REPLACE ~TECHQ~ @135
+  REPLACE ~ASCEN~ @195
+
+/*스크립트 컴파일*/
+COMPILE ~ppk/script/BLKGRDLV.baf~ USING ~~
+
+/*성표*/
+COPY ~ppk/item/EITempus.itm~ ~override/EITempus.itm~
+  SAY NAME2 @91
+  SAY DESC @92
+
+COPY ~ppk/item/EIOhgma.itm~ ~override/EIOhgma.itm~         
+  SAY NAME2 @93
+  SAY DESC @94
+
+/*주문 이름 및 설명 등록*/
+COPY ~ppk/spell/EISPCL02.SPL~ ~override/EISPCL02.SPL~         
+  SAY NAME1 @101
+  SAY UNIDENTIFIED_DESC @102
+
+COPY ~ppk/spell/EISPCL03.SPL~ ~override/EISPCL03.SPL~         
+  SAY NAME1 @103
+  SAY UNIDENTIFIED_DESC @104
+
+COPY ~ppk/spell/EISPCL04.SPL~ ~override/EISPCL04.SPL~         
+  SAY NAME1 @105
+  SAY UNIDENTIFIED_DESC @106
+
+COPY ~ppk/spell/EISPCL06.SPL~ ~override/EISPCL06.SPL~         
+  SAY NAME1 @107
+  SAY UNIDENTIFIED_DESC @108
+
+COPY ~ppk/spell/EISPCL09.SPL~ ~override/EISPCL09.SPL~         
+  SAY NAME1 @109
+  SAY UNIDENTIFIED_DESC @110
+
+COPY ~ppk/spell/EISPCL12.SPL~ ~override/EISPCL12.SPL~         
+  SAY NAME1 @111
+  SAY UNIDENTIFIED_DESC @112
+
+COPY ~ppk/spell/EISPCL13.SPL~ ~override/EISPCL13.SPL~         
+  SAY NAME1 @113
+  SAY UNIDENTIFIED_DESC @114
+
+COPY ~ppk/spell/EISPCL15.SPL~ ~override/EISPCL15.SPL~         
+  SAY NAME1 @115
+  SAY UNIDENTIFIED_DESC @116
+
+COPY ~ppk/spell/EISPCL19.SPL~ ~override/EISPCL19.SPL~         
+  SAY NAME1 @117
+  SAY UNIDENTIFIED_DESC @118
+
+COPY ~ppk/spell/EISPCL20.SPL~ ~override/EISPCL20.SPL~         
+  SAY NAME1 @119
+  SAY UNIDENTIFIED_DESC @120
+
+COPY ~ppk/spell/EISPCL21.SPL~ ~override/EISPCL21.SPL~         
+  SAY NAME1 @121
+  SAY UNIDENTIFIED_DESC @122
+
+COPY ~ppk/spell/EISPCL23.SPL~ ~override/EISPCL23.SPL~         
+  SAY NAME1 @123
+  SAY UNIDENTIFIED_DESC @124
+
+COPY ~ppk/spell/EISPCL24.SPL~ ~override/EISPCL24.SPL~         
+  SAY NAME1 @125
+  SAY UNIDENTIFIED_DESC @126
+
+COPY ~ppk/spell/EISPCL39.SPL~ ~override/EISPCL39.SPL~         
+  SAY NAME1 @127
+  SAY UNIDENTIFIED_DESC @128
+
+COPY ~ppk/spell/EISPCL40.SPL~ ~override/EISPCL40.SPL~         
+  SAY NAME1 @129
+  SAY UNIDENTIFIED_DESC @130
+
+COPY ~ppk/spell/EISPCL41.SPL~ ~override/EISPCL41.SPL~         
+  SAY NAME1 @131
+  SAY UNIDENTIFIED_DESC @132
+
+COPY ~ppk/spell/EISPCL42.SPL~ ~override/EISPCL42.SPL~         
+  SAY NAME1 @133
+  SAY UNIDENTIFIED_DESC @134
+
+COPY ~ppk/spell/EISPCL44.SPL~ ~override/EISPCL44.SPL~         
+  SAY NAME1 @135
+  SAY UNIDENTIFIED_DESC @136
+
+COPY ~ppk/spell/EISPCL52.SPL~ ~override/EISPCL52.SPL~         
+  SAY NAME1 @161
+  SAY UNIDENTIFIED_DESC @162
+
+COPY ~ppk/spell/EISPCL53.SPL~ ~override/EISPCL53.SPL~         
+  SAY NAME1 @163
+  SAY UNIDENTIFIED_DESC @164
+
+COPY ~ppk/spell/EISPCL54.SPL~ ~override/EISPCL54.SPL~         
+  SAY NAME1 @165
+  SAY UNIDENTIFIED_DESC @166
+
+COPY ~ppk/spell/EISPCL55.SPL~ ~override/EISPCL55.SPL~         
+  SAY NAME1 @167
+  SAY UNIDENTIFIED_DESC @168
+
+COPY ~ppk/spell/EISPCL56.SPL~ ~override/EISPCL56.SPL~         
+  SAY NAME1 @169
+  SAY UNIDENTIFIED_DESC @170
+
+COPY ~ppk/spell/EISPCL57.SPL~ ~override/EISPCL57.SPL~         
+  SAY NAME1 @171
+  SAY UNIDENTIFIED_DESC @172
+
+COPY ~ppk/spell/EISPCL58.SPL~ ~override/EISPCL58.SPL~         
+  SAY NAME1 @173
+  SAY UNIDENTIFIED_DESC @174
+
+COPY ~ppk/spell/EISPCL59.SPL~ ~override/EISPCL59.SPL~         
+  SAY NAME1 @175
+  SAY UNIDENTIFIED_DESC @176
+
+COPY ~ppk/spell/EISPCL60.SPL~ ~override/EISPCL60.SPL~         
+  SAY NAME1 @177
+  SAY UNIDENTIFIED_DESC @178
+
+COPY ~ppk/spell/EISPCL61.SPL~ ~override/EISPCL61.SPL~         
+  SAY NAME1 @179
+  SAY UNIDENTIFIED_DESC @180
+
+COPY ~ppk/spell/EISPCL62.SPL~ ~override/EISPCL62.SPL~         
+  SAY NAME1 @181
+  SAY UNIDENTIFIED_DESC @182
+
+COPY ~ppk/spell/EISPCL63.SPL~ ~override/EISPCL63.SPL~         
+  SAY NAME1 @183
+  SAY UNIDENTIFIED_DESC @184
+
+COPY ~ppk/spell/EISPCL72.SPL~ ~override/EISPCL72.SPL~         
+  SAY NAME1 @185
+  SAY UNIDENTIFIED_DESC @186
+
+COPY ~ppk/spell/EISPCL73.SPL~ ~override/EISPCL73.SPL~         
+  SAY NAME1 @187
+  SAY UNIDENTIFIED_DESC @188
+
+COPY ~ppk/spell/EISPCL74.SPL~ ~override/EISPCL74.SPL~         
+  SAY NAME1 @189
+  SAY UNIDENTIFIED_DESC @190
+
+COPY ~ppk/spell/EISPCL75.SPL~ ~override/EISPCL75.SPL~         
+  SAY NAME1 @191
+  SAY UNIDENTIFIED_DESC @192
+
+COPY ~ppk/spell/EISPCL76.SPL~ ~override/EISPCL76.SPL~         
+  SAY NAME1 @193
+  SAY UNIDENTIFIED_DESC @194
+
+COPY ~ppk/spell/EISPCL79.SPL~ ~override/EISPCL79.SPL~         
+  SAY NAME1 @195
+  SAY UNIDENTIFIED_DESC @196
+
+COPY ~ppk/spell/EISPPR00.SPL~ ~override/EISPPR00.SPL~         
+  SAY NAME1 @137
+  SAY UNIDENTIFIED_DESC @138
+
+COPY ~ppk/spell/EISPPR01.SPL~ ~override/EISPPR01.SPL~         
+  SAY NAME1 @139
+  SAY UNIDENTIFIED_DESC @140
+
+COPY ~ppk/spell/EISPPR02.SPL~ ~override/EISPPR02.SPL~         
+  SAY NAME1 @141
+  SAY UNIDENTIFIED_DESC @142
+
+COPY ~ppk/spell/EISPPR03.SPL~ ~override/EISPPR03.SPL~         
+  SAY NAME1 @143
+  SAY UNIDENTIFIED_DESC @144
+
+COPY ~ppk/spell/EISPPR04.SPL~ ~override/EISPPR04.SPL~         
+  SAY NAME1 @145
+  SAY UNIDENTIFIED_DESC @146
+
+COPY ~ppk/spell/EISPPR05.SPL~ ~override/EISPPR05.SPL~         
+  SAY NAME1 @147
+  SAY UNIDENTIFIED_DESC @148
+
+COPY ~ppk/spell/EISPPR06.SPL~ ~override/EISPPR06.SPL~         
+  SAY NAME1 @149
+  SAY UNIDENTIFIED_DESC @150
+
+COPY ~ppk/spell/EISPPR07.SPL~ ~override/EISPPR07.SPL~         
+  SAY NAME1 @151
+  SAY UNIDENTIFIED_DESC @152
+
+COPY ~ppk/spell/EISPPR08.SPL~ ~override/EISPPR08.SPL~         
+  SAY NAME1 @153
+  SAY UNIDENTIFIED_DESC @154
+
+COPY ~ppk/spell/EISPPR09.SPL~ ~override/EISPPR09.SPL~         
+  SAY NAME1 @155
+  SAY UNIDENTIFIED_DESC @156
+
+COPY ~ppk/spell/EISPPR10.SPL~ ~override/EISPPR10.SPL~         
+  SAY NAME1 @157
+  SAY UNIDENTIFIED_DESC @158
+
+COPY ~ppk/spell/EISPPR11.SPL~ ~override/EISPPR11.SPL~         
+  SAY NAME1 @159
+  SAY UNIDENTIFIED_DESC @160
+
+COPY ~ppk/spell/EISPPR12.SPL~ ~override/EISPPR12.SPL~         
+  SAY NAME1 @197
+  SAY UNIDENTIFIED_DESC @198
+
+COPY ~ppk/spell/EISPPR13.SPL~ ~override/EISPPR13.SPL~         
+  SAY NAME1 @199
+  SAY UNIDENTIFIED_DESC @200
+
+COPY ~ppk/spell/EISPPR14.SPL~ ~override/EISPPR14.SPL~         
+  SAY NAME1 @201
+  SAY UNIDENTIFIED_DESC @202
+
+BEGIN @51
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~DREADNAU~ 
+/*무기 사용 가능*/
+~DREADNAU                 1           1           1           0           0           1           1           1~
+
+/*무기 숙련도*/
+~DREADNAU 5 5 5 0 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 0 0 0 0 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~DREADNAU                 13     3      13     3       3      3~
+
+/*능력치 변동*/
+~DREADNAU                 0      -2     0      -2      -2      -2~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~DREADNAU                 17     0      0       0       0      0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~DREADNAU                 15     0      0       0       0      0~
+
+/*가치관*/
+~DREADNAU         1       1       1       1       1       1       1     1       1~
+
+/*듀얼클래스 가능 여부*/
+~DREADNAU               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABDDNT.2da~
+
+/*종족 및 클래스 설정*/
+~K_F_H K_F_D K_F_G K_F_E K_F_HE K_F_HL K_F_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000008    2~
+
+/*하이어빌*/
+~ei0~
+
+/*ToB 시작장비*/
+~PLAT12 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL21 BRAC16 BELT06 * * * POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 XBOW06~
+
+/*키트명 및 설명*/
+SAY @51
+SAY @51
+SAY @52
+LAF fl#add_kit_ee	STR_VAR kit_name = DREADNAU	END
+
+BEGIN @53
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~BLACKGUA~ 
+/*무기 사용 가능*/
+~BLACKGUA                 1           1           1           1           1           1           1           1~
+
+/*무기 숙련도*/
+~BLACKGUA 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~BLACKGUA                 9      3      9      3       9      9~
+
+/*능력치 변동*/
+~BLACKGUA                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~BLACKGUA                 17     0      0       0       0      0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~BLACKGUA                 15     0      0       0       0      0~
+
+/*가치관*/
+~BLACKGUA         0       0       1       0       0       1       0     0       1~
+
+/*듀얼클래스 가능 여부*/
+~BLACKGUA               0       1       1       1       1       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABBLGD.2da~
+
+/*종족 및 클래스 설정*/
+~K_F_H K_F_D K_F_G K_F_E K_F_HE K_F_HL K_F_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    2~
+
+/*하이어빌*/
+~ei1~
+
+/*ToB 시작장비*/
+~CHAN09 * HELM07 BAG20 RING06 RING31 CLCK30 BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 MISCBC STAF08~
+
+/*키트명 및 설명*/
+SAY @53 
+SAY @53
+SAY @54
+LAF fl#add_kit_ee	STR_VAR kit_name = BLACKGUA	END
+
+BEGIN @55
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~SSAULABI~ 
+/*무기 사용 가능*/
+~SSAULABI                 1           1           1           1           1           1           1           1~
+
+/*무기 숙련도*/
+~SSAULABI 3 3 3 3 5 3 3 3 3 3 3 3 0 3 3 3 3 3 0 0 3 3 0 3 5 5 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~SSAULABI                 9      3      9      3       9      3~
+
+/*능력치 변동*/
+~SSAULABI                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~SSAULABI                 17     0      0       0       0      0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~SSAULABI                 15     0      0       0       0      0~
+
+/*가치관*/
+~SSAULABI         1       1       1       1       1       1       1     1       1~
+
+/*듀얼클래스 가능 여부*/
+~SSAULABI               0       1       1       1       1       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABSLAB.2da~
+
+/*종족 및 클래스 설정*/
+~K_F_H K_F_D K_F_G K_F_E K_F_HE K_F_HL K_F_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x40000000    2~
+
+/*하이어빌*/
+~fi0~
+
+/*ToB 시작장비*/
+~CHAN09 * HELM07 BAG20 RING06 RING31 * BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+
+/*키트명 및 설명*/
+SAY @55 
+SAY @55
+SAY @56
+LAF fl#add_kit_ee	STR_VAR kit_name = SSAULABI	END
+
+BEGIN @57
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~TEMPPRST~ 
+/*무기 사용 가능*/
+~TEMPPRST                 0           0           1           0           0           1           0           0~
+
+/*무기 숙련도*/
+~TEMPPRST 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 2 2 0 0 2 2 2 0 0 0 0 0 2 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~TEMPPRST                 3      3      3      3       9      3~
+
+/*능력치 변동*/
+~TEMPPRST                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~TEMPPRST                 0      0      0       0       17     0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~TEMPPRST                 0      0      0       0       15     0~
+
+/*가치관*/
+~TEMPPRST         0       0       0       1       1       1       1     1       1~
+
+/*듀얼클래스 가능 여부*/
+~TEMPPRST               1       0       1       1       0       1~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABTPPT.2da~
+
+/*종족 및 클래스 설정*/
+~K_C_H K_C_D K_C_G K_C_E K_C_HE K_C_HL K_C_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    3~
+
+/*하이어빌*/
+~Cl0~
+
+/*ToB 시작장비*/
+~CHAN09 * HELM07 BAG26 RING06 RING31 * BOOT01 AMUL20 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+
+/*키트명 및 설명*/
+SAY @57
+SAY @57
+SAY @58
+LAF fl#add_kit_ee	STR_VAR kit_name = TEMPPRST	END
+
+COPY_EXISTING ~baldur25.bcs~ ~override/baldur25.bcs~
+EXTEND_TOP ~baldur25.bcs~ ~ppk/script/xBaldur25_TEMPPRST.baf~
+
+BEGIN @59
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~OHGMPRST~ 
+/*무기 사용 가능*/
+~OHGMPRST                 0           0           1           0           0           1           0           0~
+
+/*무기 숙련도*/
+~OHGMPRST 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~OHGMPRST                 3      3      3      3       9      3~
+
+/*능력치 변동*/
+~OHGMPRST                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~OHGMPRST                 0      0      0       0       17     0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~OHGMPRST                 0      0      0       0       15     0~
+
+/*가치관*/
+~OHGMPRST         1       1       1       1       1       1       0     0       0~
+
+/*듀얼클래스 가능 여부*/
+~OHGMPRST               1       0       1       1       0       1~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABOGPT.2da~
+
+/*종족 및 클래스 설정*/
+~K_C_H K_C_D K_C_G K_C_E K_C_HE K_C_HL K_C_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    3~
+
+/*하이어빌*/
+~Cl0~
+
+/*ToB 시작장비*/
+~CHAN09 * HELM07 BAG26 RING06 RING31 * BOOT01 AMUL20 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+
+/*키트명 및 설명*/
+SAY @59 
+SAY @59
+SAY @60
+LAF fl#add_kit_ee	STR_VAR kit_name = OHGMPRST	END
+
+COPY_EXISTING ~baldur25.bcs~ ~override/baldur25.bcs~
+EXTEND_TOP ~baldur25.bcs~ ~ppk/script/xBaldur25_OHGMPRST.baf~
+
+BEGIN @61
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~CHAMPION~ 
+/*무기 사용 가능*/
+~CHAMPION                 1           1           1           0           0           1           1           1~
+
+/*무기 숙련도*/
+~CHAMPION 3 3 3 0 0 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0 0 0 0 0 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~CHAMPION                 12     3      9      3       13     17~
+
+/*능력치 변동*/
+~CHAMPION                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~CHAMPION                 0      0      0       0       0      0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~CHAMPION                 0      0      0       0       0      0~
+
+/*가치관*/
+~CHAMPION         1       0       0       0       0       0       0     0       0~
+
+/*듀얼클래스 가능 여부*/
+~CHAMPION               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABCMPN.2da~
+
+/*종족 및 클래스 설정*/
+~K_P_H~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    6~
+
+/*하이어빌*/
+~Pa0~
+
+/*ToB 시작장비*/
+~CHAN09 * HELM07 BAG26 RING06 RING31 * BOOT01 AMUL20 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+
+/*키트명 및 설명*/
+SAY @61 
+SAY @61
+SAY @62
+LAF fl#add_kit_ee	STR_VAR kit_name = CHAMPION	END
+
+BEGIN @63
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~PYROMNCR~
+/*무기 사용 가능*/
+~PYROMNCR                 1           1           1           1           1           1           1           1~
+
+/*무기 숙련도*/
+~PYROMNCR 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~PYROMNCR                 12     3      9      3       13     17~
+
+/*능력치 변동*/
+~PYROMNCR                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~PYROMNCR                 0      0      0       0       0      0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~PYROMNCR                 0      0      0       0       0      0~
+
+/*가치관*/
+~PYROMNCR         1       0       0       0       0       0       0     0       0~
+
+/*듀얼클래스 가능 여부*/
+~PYROMNCR               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABPRMC.2da~
+
+/*종족 및 클래스 설정*/
+~K_P_H~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    6~
+
+/*하이어빌*/
+~ei2~
+
+/*ToB 시작장비*/
+~CHAN09 * HELM07 BAG26 RING06 RING31 * BOOT01 AMUL20 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+
+/*키트명 및 설명*/
+SAY @63
+SAY @63
+SAY @64
+LAF fl#add_kit_ee	STR_VAR kit_name = PYROMNCR	END
+
+BEGIN @65
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~DUALISTS~ 
+/*무기 사용 가능*/
+~DUALISTS                 1           1           0           1           1           0           1           1~
+
+/*무기 숙련도*/
+~DUALISTS 3 3 0 3 3 0 0 3 0 3 3 0 0 3 3 3 0 0 0 0 0 0 3 3 3 3 3 3 3 3 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~DUALISTS                 13     13     14     3       14     3~
+
+/*능력치 변동*/
+~DUALISTS                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~DUALISTS                 17     17     0       0       17     0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~DUALISTS                 15     15     0       0       15     0~
+
+/*가치관*/
+~DUALISTS         1       0       0       1       0       0       1     0       0~
+
+/*듀얼클래스 가능 여부*/
+~DUALISTS               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABDLST.2da~
+
+/*종족 및 클래스 설정*/
+~K_R_H K_R_E K_R_HE~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x10000000    12~
+
+/*하이어빌*/
+~ei3~
+
+/*ToB 시작장비*/
+~* * HELM19 BAG24 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H39 STAF08~
+
+/*키트명 및 설명*/
+SAY @65 
+SAY @65
+SAY @66
+LAF fl#add_kit_ee	STR_VAR kit_name = DUALISTS	END
+
+BEGIN @67
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~TEMPESTS~ 
+/*무기 사용 가능*/
+~TEMPESTS                 1           1           1           1           1           1           1           1~
+
+/*무기 숙련도*/
+~TEMPESTS 2 2 2 2 2 2 2 2 2 2 2 2 0 2 2 2 2 2 0 0 2 2 0 2 2 2 2 2 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~TEMPESTS                 13     13     14     3       14     3~
+
+/*능력치 변동*/
+~TEMPESTS                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~TEMPESTS                 17     17     0       0       17     0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~TEMPESTS                 15     15     0       0       15     0~
+
+/*가치관*/
+~TEMPESTS         1       0       0       1       0       0       1     0       0~
+
+/*듀얼클래스 가능 여부*/
+~TEMPESTS               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABTPST.2da~
+
+/*종족 및 클래스 설정*/
+~K_R_H K_R_E K_R_HE~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00008000    12~
+
+/*하이어빌*/
+~Ra0~
+
+/*ToB 시작장비*/
+~LEAT14 * HELM07 BAG24 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H39 STAF08~
+
+/*키트명 및 설명*/
+SAY @67 
+SAY @67
+SAY @68
+LAF fl#add_kit_ee	STR_VAR kit_name = TEMPESTS	END
+
+BEGIN @69
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~TRICKSTE~ 
+/*무기 사용 가능*/
+~TRICKSTE                 1           1           0           1           1           0           0           0~
+
+/*무기 숙련도*/
+~TRICKSTE 1 1 0 1 1 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~TRICKSTE                 3      9      3      3       3      3~
+
+/*능력치 변동*/
+~TRICKSTE                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~TRICKSTE                 0      17     0       0       0      0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~TRICKSTE                 0      15     0       0       0      0~
+
+/*가치관*/
+~TRICKSTE         0       0       0       1       1       1       1     1       1~
+
+/*듀얼클래스 가능 여부*/
+~TRICKSTE               1       1       1       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABTRST.2da~
+
+/*종족 및 클래스 설정*/
+~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    4~
+
+/*하이어빌*/
+~Th0~
+
+/*ToB 시작장비*/
+~LEAT14 * * BAG28 RING06 RING05,10 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
+
+/*키트명 및 설명*/
+SAY @69 
+SAY @69
+SAY @70
+LAF fl#add_kit_ee	STR_VAR kit_name = TRICKSTE	END
+
+BEGIN @71
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~SHADOWDC~ 
+/*무기 사용 가능*/
+~SHADOWDC                 1           1           0           1           1           0           0           0~
+
+/*무기 숙련도*/
+~SHADOWDC 1 1 0 1 1 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~SHADOWDC                 3      9      3      3       3      3~
+
+/*능력치 변동*/
+~SHADOWDC                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~SHADOWDC                 0      17     0       0       0      0~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~SHADOWDC                 0      15     0       0       0      0~
+
+/*가치관*/
+~SHADOWDC         0       0       0       0       1       1       0     1       1~
+
+/*듀얼클래스 가능 여부*/
+~SHADOWDC               1       1       1       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABSDDC.2da~
+
+/*종족 및 클래스 설정*/
+~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    4~
+
+/*하이어빌*/
+~Th0~
+
+/*ToB 시작장비*/
+~LEAT14 * * BAG28 RING06 RING05,10 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
+
+/*키트명 및 설명*/
+SAY @71 
+SAY @71
+SAY @72
+LAF fl#add_kit_ee	STR_VAR kit_name = SHADOWDC	END
+
+BEGIN @73
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~RDRAGOND~ 
+/*무기 사용 가능*/
+~RDRAGOND                 1           1           0           1           1           0           0           0~
+
+/*무기 숙련도*/
+~RDRAGOND 1 1 0 1 1 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~RDRAGOND                 3      12     3      13      3      15~
+
+/*능력치 변동*/
+~RDRAGOND                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~RDRAGOND                 0      17     0       0       0      17~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~RDRAGOND                 0      15     0       0       0      15~
+
+/*가치관*/
+~RDRAGOND         0       1       0       1       1       1       0     1       0~
+
+/*듀얼클래스 가능 여부*/
+~RDRAGOND               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABRDDP.2da~
+
+/*종족 및 클래스 설정*/
+~K_B_H K_B_HE~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    5~
+
+/*하이어빌*/
+~Ba0~
+
+/*ToB 시작장비*/
+~CHAN12 * * BAG30 RING06 RING34 CLCK02 BOOT01 AMUL19 BRAC16 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
+
+/*키트명 및 설명*/
+SAY @73 
+SAY @73
+SAY @74
+LAF fl#add_kit_ee	STR_VAR kit_name = RDRAGOND	END
+
+BEGIN @75
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~BDRAGOND~ 
+/*무기 사용 가능*/
+~BDRAGOND                 1           1           0           1           1           0           0           0~
+
+/*무기 숙련도*/
+~BDRAGOND 1 1 0 1 1 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~BDRAGOND                 3      12     3      13      3      15~
+
+/*능력치 변동*/
+~BDRAGOND                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~BDRAGOND                 0      17     0       0       0      17~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~BDRAGOND                 0      15     0       0       0      15~
+
+/*가치관*/
+~BDRAGOND         0       1       0       1       1       1       0     1       0~
+
+/*듀얼클래스 가능 여부*/
+~BDRAGOND               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABBDDP.2da~
+
+/*종족 및 클래스 설정*/
+~K_B_H K_B_HE~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    5~
+
+/*하이어빌*/
+~Ba0~
+
+/*ToB 시작장비*/
+~CHAN12 * * BAG30 RING06 RING34 CLCK02 BOOT01 AMUL19 BRAC16 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
+
+/*키트명 및 설명*/
+SAY @75 
+SAY @75
+SAY @76
+LAF fl#add_kit_ee	STR_VAR kit_name = BDRAGOND	END
+
+BEGIN @77
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~GDRAGOND~ 
+/*무기 사용 가능*/
+~GDRAGOND                 1           1           0           1           1           0           0           0~
+
+/*무기 숙련도*/
+~GDRAGOND 1 1 0 1 1 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~GDRAGOND                 3      12     3      13      3      15~
+
+/*능력치 변동*/
+~GDRAGOND                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~GDRAGOND                 0      17     0       0       0      17~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~GDRAGOND                 0      15     0       0       0      15~
+
+/*가치관*/
+~GDRAGOND         0       1       0       1       1       1       0     1       0~
+
+/*듀얼클래스 가능 여부*/
+~GDRAGOND               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABGDDP.2da~
+
+/*종족 및 클래스 설정*/
+~K_B_H K_B_HE~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    5~
+
+/*하이어빌*/
+~Ba0~
+
+/*ToB 시작장비*/
+~CHAN12 * * BAG30 RING06 RING34 CLCK02 BOOT01 AMUL19 BRAC16 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
+
+/*키트명 및 설명*/
+SAY @77
+SAY @77
+SAY @78
+LAF fl#add_kit_ee	STR_VAR kit_name = GDRAGOND	END
+
+BEGIN @79
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~WDRAGOND~ 
+/*무기 사용 가능*/
+~WDRAGOND                 1           1           0           1           1           0           0           0~
+
+/*무기 숙련도*/
+~WDRAGOND 1 1 0 1 1 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~WDRAGOND                 3      12     3      13      3      15~
+
+/*능력치 변동*/
+~WDRAGOND                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~WDRAGOND                 0      17     0       0       0      17~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~WDRAGOND                 0      15     0       0       0      15~
+
+/*가치관*/
+~WDRAGOND         0       1       0       1       1       1       0     1       0~
+
+/*듀얼클래스 가능 여부*/
+~WDRAGOND               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABWDDP.2da~
+
+/*종족 및 클래스 설정*/
+~K_B_H K_B_HE~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    5~
+
+/*하이어빌*/
+~Ba0~
+
+/*ToB 시작장비*/
+~CHAN12 * * BAG30 RING06 RING34 CLCK02 BOOT01 AMUL19 BRAC16 BELT10 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
+
+/*키트명 및 설명*/
+SAY @79
+SAY @79
+SAY @80
+LAF fl#add_kit_ee	STR_VAR kit_name = WDRAGOND	END
+
+BEGIN @81
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~ELEMLIST~ 
+/*무기 사용 가능*/
+~ELEMLIST                 1           0           1           1           0           0           0           1~
+
+/*무기 숙련도*/
+~ELEMLIST 0 0 1 1 0 1 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~ELEMLIST                 7      8      7      7       12     15~
+
+/*능력치 변동*/
+~ELEMLIST                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~ELEMLIST                 0      0      0       0       17     17~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~ELEMLIST                 0      0      0       0       15     15~
+
+/*가치관*/
+~ELEMLIST         0       0       0       0       1       0       0     0       0~
+
+/*듀얼클래스 가능 여부*/
+~ELEMLIST               1       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABELLT.2da~
+
+/*종족 및 클래스 설정*/
+~K_D_H K_D_D K_D_G K_D_E K_D_HE K_D_HL K_D_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x00000000    11~
+
+/*하이어빌*/
+~Dr0~
+
+/*ToB 시작장비*/
+~LEAT20 * HELM19 BAG27 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC14 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+
+/*키트명 및 설명*/
+SAY @81
+SAY @81
+SAY @82
+LAF fl#add_kit_ee	STR_VAR kit_name = ELEMLIST	END
+
+BEGIN @83
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~SHDWDRUD~ 
+/*무기 사용 가능*/
+~SHDWDRUD                 0           0           1           1           0           0           0           0~
+
+/*무기 숙련도*/
+~SHDWDRUD 0 0 2 2 0 2 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 2 0 0 0 0 2 2 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/*최소 능력치*/
+~SHDWDRUD                 7      8      7      7       12     15~
+
+/*능력치 변동*/
+~SHDWDRUD                 0      0      0      0       0       0~
+
+/*이 키트로 듀얼하기 위한 최소치*/
+~SHDWDRUD                 0      0      0       0       17     17~
+
+/*이 키트에서 듀얼하기 위한 최소치*/
+~SHDWDRUD                 0      0      0       0       15     15~
+
+/*가치관*/
+~SHDWDRUD         0       0       0       0       1       0       0     0       0~
+
+/*듀얼클래스 가능 여부*/
+~SHDWDRUD               0       0       0       0       0       0~
+
+/*키트 어빌리티 2DA*/
+~ppk/data/CLABSDDR.2da~
+
+/*종족 및 클래스 설정*/
+~K_D_H K_D_D K_D_G K_D_E K_D_HE K_D_HL K_D_HO~
+
+/*아이템 사용불가 플래그 및 메인 클래스*/
+~0x20020002    11~
+
+/*하이어빌*/
+~Dr0~
+
+/*ToB 시작장비*/
+~LEAT20 * HELM19 BAG27 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC14 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 STAF08~
+
+/*키트명 및 설명*/
+SAY @83
+SAY @83
+SAY @84
+LAF fl#add_kit_ee	STR_VAR kit_name = SHDWDRUD	END

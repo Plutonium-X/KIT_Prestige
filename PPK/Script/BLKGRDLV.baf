@@ -1,0 +1,8 @@
+IF
+  Global("BLKGRDLV","LOCALS",1)
+THEN
+  RESPONSE #100
+    SetGlobal("BLKGRDLV","LOCALS",0)
+    ReputationInc(-1)
+    Continue()
+END

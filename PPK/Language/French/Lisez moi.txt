@@ -1,0 +1,355 @@
+PRESTIGE KITPACK V3
+
+
+AUTEUR :
+
+ Inesius (inesiusnaver.com)
+
+TRADUCTIONS :
+
+ Koréen/Anglais	: Inesius
+
+ Français : Deratiseur
+
+ Russian  : SubZero400
+
+
+
+KIT RAJOUTES :
+
+CUIRASSE LEGENDAIRE (Guerrier)
+Le Cuirassé est le fantassin ultime, une force absolue de destruction, un guerrier total qui excelle dans les techniques de pur combat. Alors que certains dépendent de la ruse et des réflexes dans une lutte, et que d'autres suivent un code d’honneur ou s’engagent dans la bataille à cheval, le Cuirassé Légendaire se lance simplement au combat, complètement voué à la destruction implacable et durable. Quand le flot du combat se tourne contre lui, il reste tel aussi tenace qu’un roc. Il est le Cuirassé Légendaire qui a la force de briser les portails réputés imprenables.
+
+Requis : Force et constitution 13.
+
+Avantages :
+- Bonus de +1 aux dommages tous les 5 niveaux.
+- Peux utiliser "Immobile" une fois par jour tous les 6 niveaux après le niveau 3 : ne peut pas bouger pendant 3 rounds, mais gagne l'immunité aux coups d'ailes et bonus à la classe d'armure de 2 + 1 par 8 niveaux d'expérience.
+- Peux utiliser "Instoppable" une fois par jour tous les 6 niveaux : gagne action libre et bonus de +1 aux dommages par 4 niveaux d'expérience.
+- Peut sélectionner "Peau blindée" cinq fois comme capacité de haut niveau. A chaque fois les résistances physiques augmentent de 5% de façon permanente.
+
+Inconvénients :
+- Ne peut pas utiliser d'armes de jet
+- Pénalité de -2 à DEX, INT, SAG, CHA.
+- Ne peux pas se jumeler
+
+
+
+SSAULABI (Guerrier)
+Le ssaulabi est spécialisé dans tous les dons utilisant les arcs. Il gagne de merveilleuses capacités dans sa discipline, la méditation spécialisée et traditionnelle.
+
+Avantages :
+- +1 au toucher et aux dégâts sur les attaques à distance tous les 4 niveaux.
+- Peut utiliser "vision intérieure" une fois par jour tous les 5 niveaux : gagne Vision véritable et +5 à l'attaque pendant 2 rounds.
+- Peux sectionner les capacités de haut niveau "Traque", "Esquive", "Evasion".
+- Niveau 2 : Bonus de +1 au facteur de vitesse.
+- Niveau 9 : Vitesse de mouvement augmentée de 2 points.
+- Niveau 16 : Immunité au charme, à la confusion et à l’horreur. Bonus additionnel de +1 au facteur de vitesse.
+
+Inconvénients :
+- Le ssaulabi ne peut apprendre aucune compétence d'armes à deux mains excepté les arcs, et ne peut pas porter d'armure de plates ou d’armure de plates complète.
+- Ne peut pas dépenser plus de 3 points dans les compétences d'armes excepté dans les arcs.
+
+
+
+CHEVALIER NOIR (Paladin)
+Le Chevalier noir est l'incarnation du Mal. C’est plus un démon qui a pris forme humaine qu'un mortel. Il mérite amplement sa réputation de noirceur et de vilenie ; pour preuve : les dieux malfaisants qu’il sert et les diables et démons avec qui il s’acoquine ! Tout le monde le craint et à juste titre. Certains vont jusqu’à l'appeler " anti-paladin ", eu égard à sa nature malfaisante.
+
+Alignement : Mauvais
+
+Avantages :
+- Peut utiliser l'attaque sournoise x2 au niveau 6, x3 au niveau 14.
+- Peut lancer Animation des morts une fois par jour tous les 5 niveaux. (squelette au niveau 5, spectre au niveau 10, momie au niveau 15)
+- Peut lancer Invisibilité une fois par jour au niveau 4, deux fois au niveau 10.
+- Gagne un bonus de +2 bonus à tous les jets de sauvegarde.
+- Peut choisir Convocation de Deva déchue comme capacité de haut niveau.
+
+Inconvénients :
+- Perd 1 point de réputation à chaque passage de niveau.
+- Peut seulement attendre la maitrise (4 points) dans les armes.
+
+
+
+CHAMPION DIVIN (Paladin)
+Le Champion Divin est le puissant bras droit de sa divinité. Il sert en tant que gardien de sites sacrés, protecteur de pèlerins et commandant lors des croisades. Bien que les Paladins remplissent ce rôle dans de nombreux cultes du Bien, un Champion Divin peut porter la bannière de n’importe quelle divinité sans restriction d'alignement ou de credo. Ces guerriers saints sont vénérés par les croyants de leur culte et haïs par les cultes ennemis à égale mesure.
+
+Avantages :
+- Peut utiliser "Châtiment du mal" une fois tous les 4 niveaux : bonus aux dommages de 5 + 1 par niveau (10 au maximum) contre les créatures mauvaises pendant 5 rounds.
+- Le Champion Divin peut se spécialiser jusqu’à 3 points dans les armes qu’il peut utiliser.
+
+Inconvénients :
+- Ne peut utiliser de sorts de prêtres.
+- Ne peut pas utiliser d'armes de jet.
+
+
+
+FEU MYSTIQUE (Paladin)
+Serviteurs royaux de Mystra la dame de la magie, les  feux mystiques sont d’habitude choisis parmi ceux qui ont une disposition naturelle à la magie, et ils sont capables de lancer de puissantes arcanes magiques en transmettant les paroles de leur ordre.
+
+Avantages :
+- Gagne 1 % de résistance magique par niveau jusqu'au niveau 20.
+- Gagne les sorts suivants en tant que sorts divins :
+- Niveau 1 : Bouclier, Amitié, Familier
+- Niveau 2 : Image miroir, Armure fantomatique, Eclair
+- Niveau 3 : Feu solaire, Cône de froid, Abaissement de la Résistance
+- Niveau 4 : Vision véritable, Contingence, Renvoi de sorts
+- Peux choisir les capacités de haut niveau suivantes : "Utilisation d’objets", "Ecriture de parchemin", "Alchimie".
+- Peut mémoriser jusqu'a cinq sorts par niveau de sort.
+
+Inconvénients :
+- Ne peut utiliser aucune capacité de paladin à part les sorts.
+- Ne peut pas se spécialiser dans les armes.
+- Ne peut pas choisir les capacités de haut niveau "Tornade d’acier", "Coup fatal", "Coup critique" et "Point d’acier".
+
+
+
+DUELLISTE (Rôdeur)
+Le duelliste est un guerrier intelligent et agile, rompu à l'art des attaques précises avec des armes légères comme l’épée courte. Aussi connu sous le nom de bretteur, le duelliste tire avantage de ses réflexes rapides et de la ruse. Au lieu d'avoir des armures encombrantes, les duellistes estiment que la meilleure manière de se protéger est de ne pas en avoir du tout.
+
+Avantages :
+- Bonus de +2 à la classe d’armure, + 1 tous les 3 niveaux.
+- Bonus de +1 aux dégâts tous les 4 niveaux.
+- Peut utiliser l’habilité "Attaque acrobatique" une fois par jour tous les 5 niveaux : gagne +3 à l’attaque, à la classe d’armure et aux jets de sauvegarde pendant 2 rounds.
+- Peut choisir les capacités de haut niveau "Esquive" et "Evasion".
+
+Inconvénients :
+- Ne peut utiliser aucune capacité de rodeur.
+- Ne peut pas porter d’armure.
+- Ne peut pas se spécialiser dans les armes contendantes, les épées bâtardes et les armes à deux mains excepté les bâtons.
+- Ne peut pas choisir les capacités de haut niveau "Résistance" et "traque".
+
+
+
+TEMPETE (Rôdeur)
+Le Tempête est le point calme dans une barrière tourbillonnante de lames mortelles. Les poètes utilisent des termes colorés comme « danseur » pour décrire le mouvement d’un tempête et de ses deux lames, mais la maitrise de ce style de combat n’est pas faite pour "danser". Pas non plus pour impressionner qui que ce soit, encore moins les poètes. Le Tempête ce concentre sur l’apprentissage des secrets ultimes du combat à deux armes dans un seul but – la destruction de ces ennemis.
+
+Avantages :
+- Bonus de +1 à la classe d’armure aux niveaux 7, 14, et 23.
+- Peut utiliser l’habilité "Tempête" une fois par jour tous les 8 niveaux : il gagne + 4 à la classe d’armure, peut bouger plus vite, et son nombre d’attaques est doublé.
+- Niveau 5 : +1/2 attaque par round.
+- Niveau 16 : ne reçoit plus la pénalité de -2 au taco pour sa main non-directrice.
+
+Inconvénients :
+- Ne peut pas se spécialiser dans les armes à deux mains ou les styles d’armes, excepté le style de combat à deux armes.
+- Ne peut pas utiliser la capacité Charme animal et les sorts de rodeur.
+- Ne peut pas porter d’armures métalliques.
+
+
+
+PRETRE DE TEMPUS (Clerc)
+Les intrépides prêtres de Tempus, Seigneur des batailles, n’ont aucune crainte de perdre leurs âme en la consumant sur le champ de bataille, en raison de leur propre foi. Ce sont de vrais guerriers et les prêtres les plus fiables quand il faut faire face à l’ennemi.
+
+Alignement : Non-Loyal
+
+Avantages :
+- Peut se spécialiser dans les armes qu’il peut utiliser.
+- Peut utiliser "Encouragement" une fois par jour tous les 5 niveaux : tous les membres du groupe gagnent un bonus de +2 aux dégâts, à l'attaque et aux jets de sauvegarde.
+
+Inconvénients :
+- Aucun
+
+
+
+PRETRE D’OHGMA (Clerc)
+Ohgma, le Seigneur de la connaissance, de l'invention et de la curiosité promet l’omniscience à ses prêtres. Ces prêtres ne sont pas les plus magnifiques" combattants, mais ils fournissent de l’aide partout... notamment le savoir lui même.
+
+Alignement : non-chaotique
+
+Avantages :
+- Gagne 2 points de connaissance additionnels à chaque niveau.
+- Peut utiliser "Alchimie" une fois par jour tous les 8 niveaux.
+- Peut utiliser n’importe quel objet au niveau 20.
+
+Inconvénients :
+- Aucun
+
+
+
+ELEMENTALISTE (Druide)
+Les élémentalistes sont doués pour manipuler les éléments. Par leur entrainement avec les voies de la nature et leur intimité avec les esprits, ils peuvent traiter avec les essences naturelles très facilement.
+
+Avantages :
+- Gagne 10% de résistance au froid, au feu, à l’électricité et à l’acide. 10% sont encore gagnés aux niveaux 8 et 13.
+- Peut lancer les Convocations d'elémentaire mineur comme sort de 3eme niveau.
+- Peut utiliser "Assimilation du Feu/Electricité/Froid/Acide" une fois par jour tous les 10 niveaux : Il gagne régénération 1/sec, la résistance sélectionnée passe à 110%, les résistances aux autres éléments sont réduites de 50%, et toutes les attaques portées par l’élémentaliste bénéficient d’un bonus de 2D4 dégâts de l’élément sélectionné.
+
+Inconvénients :
+- Ne peut pas se transformer.
+- Le maximum de point de vie par niveau est réduit de 1, et il n'obtient que 1 point de vie par niveau après le niveau 9
+
+
+
+DRUIDE DE L’OMBRE (Druide)
+les druides de l’ombre sont les plus sectaires des gardiens de la nature. Ils désapprouvent n’importe quelle commodité de la civilisation, et complotent au saint de leur propre groupe pour "naturaliser" le monde entier.
+
+Avantages :
+- Peut mémoriser un sort de plus par niveau de sort.
+- Peut se spécialiser dans les armes qu’il peut utiliser.
+- Bonus de +1 aux dégâts tous les 4 niveaux.
+- Bonus de +1 à l’attaque tous les 5 niveaux.
+- Gagne 5% de résistance physique tous les 7 niveaux.
+- Gagne 1/2 attaque en bonus aux niveaux 8 et 16.
+- Peut utiliser la capacité "Ascension" une fois par jour tous les 9 niveaux : le personnage ne peut pas mourir par des dégâts reçus ou par des effets de sorts pendant 3 rounds.
+- Niveau 6 : Gagne +1 en Force
+- Niveau 12 : Gagne +1 en Constitution
+- Niveau 18 : Gagne +1 en Sagesse
+- Niveau 20 : La durée de "Ascension" passe à 4 rounds.
+- Niveau 24 : Gagne +1 en Force
+- Niveau 30 : Gagne +1 En constitution et la durée de "Ascension" passe à 5 rounds.
+- Niveau 36 : Gagne +1 en Sagesse
+
+Inconvénients :
+- Ne peut pas porter d'armure plus épaisse que la besantine, et ne peux utiliser aucune armes métalliques, ainsi qu’aucun objets magiques exceptés armes et armures.
+- Ne peut pas se jumeler.
+
+
+
+ESCROC (Voleur)
+Les escrocs combinent leur connaissance des sorts avec un goût pour l’intrigue, le vol ou tout simplement le méfait. Ils sont parmi les plus polyvalents des aventuriers. Les escrocs ont tendance à utiliser des fonds de culotte pour se lancer à l'aventure, mémorisant de préférence des sorts qui améliorent leur discrétion et leur mobilité.
+
+Alignement : non-loyal
+
+Avantages :
+- Peut lancer "Cécité" une fois par jour tous les 4 niveaux.
+- Peut lancer "Déblocage" une fois par jour tous les 5 niveaux.
+- Peut lancer "Attaque sournoise Impromptue" une fois par jour tous les 6 niveaux : La prochaine (rapide) attaque est considérée comme une attaque sournoise.
+
+Inconvénients :
+- Pénalité de -15 au crochetage et à trouver les pièges.
+- Le multiplicateur d’attaque sournoise est limité à x3.
+
+
+
+MAITRE DES OMBRES (Voleur)
+Les maitres des ombres sont des virtuoses des faux-semblants, opérant en limite de l'ombre et de la lumière. Le mystère et le secret qui les entourent font que personne ne leur fait jamais confiance, mais ils sont également une source d’émerveillement pour tous.
+
+Alignement : Non-loyal et non-bon
+
+Avantages :
+- Peut utiliser "Se cacher en pleine vue" une fois par jour tous les 5 niveaux : devient invisible et non-décelable.
+- Peut utiliser "Invoquer les ombres" une fois par jour tous les 6 niveaux. 2 ombres invoquées au niveau 9, 1 démombre invoqué au niveau 12, 2 démombres au niveau 18, 3 au niveau 3 24.
+
+Inconvénients :
+- Pénalité de 1 au CHA et à la CON tous les 5 niveaux.
+
+
+
+DISCIPLE DU DRAGON ROUGE (Barde)
+On sait que certains dragons peuvent prendre une apparence humanoïde et prendre des amants parmi les créatures de ce type. Parfois, un humain naît d'une telle union et chaque descendant de cet enfant jusqu'à la millième génération possèdera une once de sang de dragon, si petite soit-elle. Habituellement, ils n'en retirent aucun avantage, quoique certains ensorceleurs dotés de puissants pouvoirs magiques, les attribuent à leur héritage draconien. Néanmoins, pour certains d'entre eux, le sang de dragon se manifeste de façon irrépressible. Ces personnages deviennent des disciples draconiens qui utilisent leur potentiel magique comme un catalyseur pour éveiller le sang de dragon qui sommeille en eux et révéler toute sa puissance.
+
+Avantages :
+- La peau du disciple draconien se change progressivement en écailles : Bonus de 1 à la CA tous les 3 niveaux. 
+- Gagne 6% de résistance au feu par niveau. (Maximum à 100%)
+- Niveau 4 : FOR+1, peut lancer "Mains ardentes" une fois par jour.
+- Niveau 8 : CON+1, peut lancer "Incinérateur d'agannazar" une fois par jour.
+- Niveau 12 : INT+1, peut lancer "Boule de feu" une fois par jour.
+- Niveau 16 : FOR+1, CHA+1, la peau devient rouge.
+- Niveau 20 : peut utiliser Souffle de dragon (6D10) une fois par jour, immunisé à l’étourdissement et à la paralysie.
+- Niveau 25 : peut utiliser toutes les capacités de type sort deux fois par jour. 
+- Niveau 30 : peut utiliser toutes les capacités de type sort trois fois par jour. 
+- Niveau 35 : peut utiliser Souffle de dragon deux fois par jour.
+
+Inconvénients :
+- N’a pas accès aux capacités de haut niveau de barde.
+- N'a seulement que la moitié du score de connaissance.
+- Mémorise un sort de moins par niveau de sort.
+
+
+
+DISCIPLE DU DRAGON BLEU (Barde)
+On sait que certains dragons peuvent prendre une apparence humanoïde et prendre des amants parmi les créatures de ce type. Parfois, un humain naît d'une telle union et chaque descendant de cet enfant jusqu'à la millième génération possèdera une once de sang de dragon, si petite soit-elle. Habituellement, ils n'en retirent aucun avantage, quoique certains ensorceleurs dotés de puissants pouvoirs magiques, les attribuent à leur héritage draconien. Néanmoins, pour certains d'entre eux, le sang de dragon se manifeste de façon irrépressible. Ces personnages deviennent des disciples draconiens qui utilisent leur potentiel magique comme un catalyseur pour éveiller le sang de dragon qui sommeille en eux et révéler toute sa puissance.
+
+Avantages :
+- La peau du disciple draconien se change progressivement en écailles : Bonus de 1 à la CA tous les 3 niveaux. 
+- Gagne 6% de résistance à l’électricité par niveau. (Maximum à 100%)
+- Niveau 4 : FOR+1, peut lancer "Poigne électrique" une fois par jour.
+- Niveau 8 : CON+1, peut lancer "Eclair" une fois par jour.
+- Niveau 12 : INT+1, peut lancer "Appel de la foudre" une fois par jour.
+- Niveau 16 : FOR+1, CHA+1, la peau devient bleue.
+- Niveau 20 : peut utiliser Souffle de dragon (6D10) une fois par jour, immunisé à l’étourdissement et à la paralysie.
+- Niveau 25 : peut utiliser toutes les capacités de type sort deux fois par jour. 
+- Niveau 30 : peut utiliser toutes les capacités de type sort trois fois par jour. 
+- Niveau 35 : peut utiliser Souffle de dragon deux fois par jour.
+
+Inconvénients :
+- N’a pas accès aux capacités de  haut niveau de barde.
+- N'a seulement que la moitié du score de connaissance.
+- Mémorise un sort de moins par niveau de sort.
+
+
+
+DISCIPLE DU DRAGON BLEU VERT (Barde)
+On sait que certains dragons peuvent prendre une apparence humanoïde et prendre des amants parmi les créatures de ce type. Parfois, un humain naît d'une telle union et chaque descendant de cet enfant jusqu'à la millième génération possèdera une once de sang de dragon, si petite soit-elle. Habituellement, ils n'en retirent aucun avantage, quoique certains ensorceleurs dotés de puissants pouvoirs magiques, les attribuent à leur héritage draconien. Néanmoins, pour certains d'entre eux, le sang de dragon se manifeste de façon irrépressible. Ces personnages deviennent des disciples draconiens qui utilisent leur potentiel magique comme un catalyseur pour éveiller le sang de dragon qui sommeille en eux et révéler toute sa puissance.
+
+Avantages :
+- La peau du disciple draconien se change progressivement en écailles : Bonus de 1 à la CA tous les 3 niveaux. 
+- Gagne 6% de résistance à l’acide par niveau. (Maximum à 100%)
+- Niveau 4 : FOR+1, peut lancer "Orbe chromatique" une fois par jour.
+- Niveau 8 : CON+1, peut lancer "Flèche acide de Melf" une fois par jour.
+- Niveau 12 : INT+1, peut lancer "Contagion" une fois par jour.
+- Niveau 16 : FOR+1, CHA+1, sa peau devient verte.
+- Niveau 20 : peut utiliser Souffle de dragon (6D10) une fois par jour, immunisé à l’étourdissement et à la paralysie.
+- Niveau 25 : peut utiliser toutes les capacités de type sort deux fois par jour. 
+- Niveau 30 : peut utiliser toutes les capacités de type sort trois fois par jour. 
+- Niveau 35 : peut utiliser Souffle de dragon deux fois par jour.
+
+Inconvénients :
+- N’a pas accès aux capacités de  haut niveau de barde.
+- N'a seulement que la moitié du score de connaissance.
+- Mémorise un sort de moins par niveau de sort.
+
+
+
+DISCIPLE DU DRAGON BLANC (Barde)
+On sait que certains dragons peuvent prendre une apparence humanoïde et prendre des amants parmi les créatures de ce type. Parfois, un humain naît d'une telle union et chaque descendant de cet enfant jusqu'à la millième génération possèdera une once de sang de dragon, si petite soit-elle. Habituellement, ils n'en retirent aucun avantage, quoique certains ensorceleurs dotés de puissants pouvoirs magiques, les attribuent à leur héritage draconien. Néanmoins, pour certains d'entre eux, le sang de dragon se manifeste de façon irrépressible. Ces personnages deviennent des disciples draconiens qui utilisent leur potentiel magique comme un catalyseur pour éveiller le sang de dragon qui sommeille en eux et révéler toute sa puissance.
+
+Avantages :
+- La peau du disciple draconien se change progressivement en écailles : Bonus de 1 à la CA tous les 3 niveaux. 
+- Gagne 6% de résistance au froid par niveau. (Maximum à 100%)
+- Niveau 4 : STR+1, peut lancer "Toucher glacial" une fois par jour.
+- Niveau 8 : CON+1, peut lancer "Lenteur" une fois par jour.
+- Niveau 12 : INT+1, peut lancer "Tempête glaciale" une fois par jour.
+- Niveau 16 : FOR+1, CHA+1, la peau devient blanche.
+- Niveau 20 : peut utiliser Souffle de dragon (6D10) une fois par jour, immunisé à l’étourdissement et à la paralysie.
+- Niveau 25 : peut utiliser toutes les capacités de type sort deux fois par jour. 
+- Niveau 30 : peut utiliser toutes les capacités de type sort trois fois par jour. 
+- Niveau 35 : peut utiliser Souffle de dragon deux fois par jour.
+
+Inconvénients :
+- N’a pas accès aux capacités de  haut niveau de barde.
+- N'a seulement que la moitié du score de connaissance.
+- Mémorise un sort de moins par niveau de sort.
+
+
+
+HISTORIQUE DES VERSIONS :
+
+Version 4. (15 november 2024) by Deratiseur
+
+- Added EE editions and EET compatibility
+
+- Corrected 2 spells with bad names
+
+Version 3. (13 September 2008) by Austin & jastey
+
+- Added Russian translation (thanks SubZero400!)
+
+- fixed script compilation bug (script was compiled too early)
+
+- Added version tag to tp2
+
+- Corrected path to readmes
+
+- Updated to WeiDU v246
+
+Version 2. (17 Mai 2008)
+
+- Kits séparés en plusieurs composants
+
+- Rajout de la traduction Française (merci Deratiseur!)
+
+- Quelques textes ont été corrigés dans la version anglaise
+
+Version 1. (3 Mai 2008)
+
+- Premiere diffusion

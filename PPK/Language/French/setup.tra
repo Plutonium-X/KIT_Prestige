@@ -1,0 +1,536 @@
+
+@2 = ~Setup cannot find [Throne of Bhaal] expansion.~
+
+@20 = ~Prestige Kit Pack~
+
+
+@51 = ~CUIRASSE LEGENDAIRE~
+@52 = ~CUIRASSE LEGENDAIRE : Le Cuirassé est le fantassin ultime, une force absolue de destruction, un guerrier total qui excelle dans les techniques de pur combat. Alors que certains dépendent de la ruse et des réflexes dans une lutte, et que d'autres suivent un code d’honneur ou s’engagent dans la bataille à cheval, le Cuirassé Légendaire se lance simplement au combat, complètement voué à la destruction implacable et durable. Quand le flot du combat se tourne contre lui, il reste tel aussi tenace qu’un roc. Il est le Cuirassé Légendaire qui a la force de briser les portails réputés imprenables.
+
+Requis : Force et constitution 13.
+
+Avantages :
+- Bonus de +1 aux dommages tous les 5 niveaux.
+- Peux utiliser "Immobile" une fois par jour tous les 6 niveaux après le niveau 3 : ne peut pas bouger pendant 3 rounds, mais gagne l'immunité aux coups d'ailes et bonus à la classe d'armure de 2 + 1 par 8 niveaux d'expérience.
+- Peux utiliser "Instoppable" une fois par jour tous les 6 niveaux : gagne action libre et bonus de +1 aux dommages par 4 niveaux d'expérience.
+- Peut sélectionner "Peau blindée" cinq fois comme capacité de haut niveau. A chaque fois les résistances physiques augmentent de 5% de façon permanente.
+
+Inconvénients :
+- Ne peut pas utiliser d'armes de jet
+- Pénalité de -2 à DEX, INT, SAG, CHA.
+- Ne peux pas se jumeler~
+@53 = ~CHEVALIER NOIR~
+@54 = ~CHEVALIER NOIR : Le Chevalier noir est l'incarnation du Mal. C’est plus un démon qui a pris forme humaine qu'un mortel. Il mérite amplement sa réputation de noirceur et de vilenie ; pour preuve : les dieux malfaisants qu’il sert et les diables et démons avec qui il s’acoquine ! Tout le monde le craint et à juste titre. Certains vont jusqu’à l'appeler " anti-paladin ", eu égard à sa nature malfaisante.
+
+Alignement : Mauvais
+
+Avantages :
+- Peut utiliser l'attaque sournoise x2 au niveau 6, x3 au niveau 14.
+- Peut lancer Animation des morts une fois par jour tous les 5 niveaux. (squelette au niveau 5, spectre au niveau 10, momie au niveau 15)
+- Peut lancer Invisibilité une fois par jour au niveau 4, deux fois au niveau 10.
+- Gagne un bonus de +2 bonus à tous les jets de sauvegarde.
+- Peut choisir Convocation de Deva déchue comme capacité de haut niveau.
+
+Inconvénients :
+- Perd 1 point de réputation à chaque passage de niveau.
+- Peut seulement attendre la maitrise (4 points) dans les armes.~
+@55 = ~SSAULABI~
+@56 = ~SSAULABI : Le ssaulabi est spécialisé dans tous les dons utilisant les arcs. Il gagne de merveilleuses capacités dans sa discipline, la méditation spécialisée et traditionnelle.
+
+Avantages :
+- +1 au toucher et aux dégâts sur les attaques à distance tous les 4 niveaux.
+- Peut utiliser "vision intérieure" une fois par jour tous les 5 niveaux : gagne Vision véritable et +5 à l'attaque pendant 2 rounds.
+- Peux sectionner les capacités de haut niveau "Traque", "Esquive", "Evasion".
+- Niveau 2 : Bonus de +1 au facteur de vitesse.
+- Niveau 9 : Vitesse de mouvement augmentée de 2 points.
+- Niveau 16 : Immunité au charme, à la confusion et à l’horreur. Bonus additionnel de +1 au facteur de vitesse.
+
+Inconvénients :
+- Le ssaulabi ne peut apprendre aucune compétence d'armes à deux mains excepté les arcs, et ne peut pas porter d'armure de plates ou d’armure de plates complète.
+- Ne peut pas dépenser plus de 3 points dans les compétences d'armes excepté dans les arcs.~
+@57 = ~PRETRE DE TEMPUS~
+@58 = ~ PRETRE DE TEMPUS : Les intrépides prêtres de Tempus, Seigneur des batailles, n’ont aucune crainte de perdre leurs âme en la consumant sur le champ de bataille, en raison de leur propre foi. Ce sont de vrais guerriers et les prêtres les plus fiables quand il faut faire face à l’ennemi.
+
+Alignement : Non-Loyal
+
+Avantages :
+- Peut se spécialiser dans les armes qu’il peut utiliser.
+- Peut utiliser "Encouragement" une fois par jour tous les 5 niveaux : tous les membres du groupe gagnent un bonus de +2 aux dégâts, à l'attaque et aux jets de sauvegarde.
+
+Inconvénients :
+- Aucun~
+@59 = ~PRETRE D’OHGMA~
+@60 = ~PRETRE D’OHGMA : Ohgma, le Seigneur de la connaissance, de l'invention et de la curiosité promet l’omniscience à ses prêtres. Ces prêtres ne sont pas les plus magnifiques" combattants, mais ils fournissent de l’aide partout... notamment le savoir lui même.
+
+Alignement : non-chaotique
+
+Avantages :
+- Gagne 2 points de connaissance additionnels à chaque niveau.
+- Peut utiliser "Alchimie" une fois par jour tous les 8 niveaux.
+- Peut utiliser n’importe quel objet au niveau 20.
+
+Inconvénients :
+- Aucun~
+@61 = ~CHAMPION DIVIN~
+@62 = ~CHAMPION DIVIN : Le Champion Divin est le puissant bras droit de sa divinité. Il sert en tant que gardien de sites sacrés, protecteur de pèlerins et commandant lors des croisades. Bien que les Paladins remplissent ce rôle dans de nombreux cultes du Bien, un Champion Divin peut porter la bannière de n’importe quelle divinité sans restriction d'alignement ou de credo. Ces guerriers saints sont vénérés par les croyants de leur culte et haïs par les cultes ennemis à égale mesure.
+
+Avantages :
+- Peut utiliser "Châtiment du mal" une fois tous les 4 niveaux : bonus aux dommages de 5 + 1 par niveau (10 au maximum) contre les créatures mauvaises pendant 5 rounds.
+- Le Champion Divin peut se spécialiser jusqu’à 3 points dans les armes qu’il peut utiliser.
+
+Inconvénients :
+- Ne peut utiliser de sorts de prêtres
+- Ne peut pas utiliser d'armes de jet~
+@63 = ~FEU MYSTIQUE~
+@64 = ~FEU MYSTIQUE : Serviteurs royaux de Mystra la dame de la magie, les  feux mystiques sont d’habitude choisis parmi ceux qui ont une disposition naturelle à la magie, et ils sont capables de lancer de puissantes arcanes magiques en transmettant les paroles de leur ordre.
+
+Avantages :
+- Gagne 1 % de résistance magique par niveau jusqu'au niveau 20.
+- Gagne les sorts suivants en tant que sorts divins :
+- Niveau 1 : Bouclier, Amitié, Familier
+- Niveau 2 : Image miroir, Armure fantomatique, Eclair
+- Niveau 3 : Feu solaire, Cône de froid, Abaissement de la Résistance
+- Niveau 4 : Vision véritable, Contingence, Renvoi de sorts
+- Peux choisir les capacités de haut niveau suivantes : "Utilisation d’objets", "Ecriture de parchemin", "Alchimie".
+- Peut mémoriser jusqu'a cinq sorts par niveau de sort.
+
+Inconvénients :
+- Ne peut utiliser aucune capacité de paladin à part les sorts.
+- Ne peut pas se spécialiser dans les armes.
+- Ne peut pas choisir les capacités de haut niveau "Tornade d’acier", "Coup fatal", "Coup critique" et "Point d’acier".~
+@65 = ~DUELLISTE~
+@66 = ~DUELLISTE : Le duelliste est un guerrier intelligent et agile, rompu à l'art des attaques précises avec des armes légères comme l’épée courte. Aussi connu sous le nom de bretteur, le duelliste tire avantage de ses réflexes rapides et de la ruse. Au lieu d'avoir des armures encombrantes, les duellistes estiment que la meilleure manière de se protéger est de ne pas en avoir du tout.
+
+Avantages :
+- Bonus de +2 à la classe d’armure, + 1 tous les 3 niveaux.
+- Bonus de +1 aux dégâts tous les 4 niveaux.
+- Peut utiliser l’habilité "Attaque acrobatique" une fois par jour tous les 5 niveaux : gagne +3 à l’attaque, à la classe d’armure et aux jets de sauvegarde pendant 2 rounds.
+- Peut choisir les capacités de haut niveau "Esquive" et "Evasion".
+
+Inconvénients :
+- Ne peut utiliser aucune capacité de rodeur.
+- Ne peut pas porter d’armure.
+- Ne peut pas se spécialiser dans les armes contendantes, les épées bâtardes et les armes à deux mains excepté les bâtons.
+- Ne peut pas choisir les capacités de haut niveau "Résistance" et "traque".~
+@67 = ~TEMPETE~
+@68 = ~TEMPETE : Le Tempête est le point calme dans une barrière tourbillonnante de lames mortelles. Les poètes utilisent des termes colorés comme « danseur » pour décrire le mouvement d’un tempête et de ses deux lames, mais la maitrise de ce style de combat n’est pas faite pour "danser". Pas non plus pour impressionner qui que ce soit, encore moins les poètes. Le Tempête ce concentre sur l’apprentissage des secrets ultimes du combat à deux armes dans un seul but – la destruction de ces ennemis.
+
+Avantages :
+- Bonus de +1 à la classe d’armure aux niveaux 7, 14, et 23.
+- Peut utiliser l’habilité "Tempête" une fois par jour tous les 8 niveaux : il gagne + 4 à la classe d’armure, peut bouger plus vite, et son nombre d’attaques est doublé.
+- Niveau 5 : +1/2 attaque par round.
+- Niveau 16 : ne reçoit plus la pénalité de -2 au taco pour sa main non-directrice.
+
+Inconvénients :
+- Ne peut pas se spécialiser dans les armes à deux mains ou les styles d’armes, excepté le style de combat à deux armes.
+- Ne peut pas utiliser la capacité Charme animal et les sorts de rodeur.
+- Ne peut pas porter d’armures métalliques.~
+@69 = ~ESCROC~
+@70 = ~ESCROC : Les escrocs combinent leur connaissance des sorts avec un goût pour l’intrigue, le vol ou tout simplement le méfait. Ils sont parmi les plus polyvalents des aventuriers. Les escrocs ont tendance à utiliser des fonds de culotte pour se lancer à l'aventure, mémorisant de préférence des sorts qui améliorent leur discrétion et leur mobilité.
+
+Alignement : non-loyal
+
+Avantages :
+- Peut lancer "Cécité" une fois par jour tous les 4 niveaux.
+- Peut lancer "Déblocage" une fois par jour tous les 5 niveaux.
+- Peut lancer "Attaque sournoise Impromptue" une fois par jour tous les 6 niveaux : La prochaine (rapide) attaque est considérée comme une attaque sournoise.
+
+Inconvénients :
+- Pénalité de -15 au crochetage et à trouver les pièges.
+- Le multiplicateur d’attaque sournoise est limité à x3.~
+@71 = ~MAITRE DES OMBRES~
+@72 = ~MAITRE DES OMBRES : Les maitres des ombres sont des virtuoses des faux-semblants, opérant en limite de l'ombre et de la lumière. Le mystère et le secret qui les entourent font que personne ne leur fait jamais confiance, mais ils sont également une source d’émerveillement pour tous.
+
+Alignement : Non-loyal et non-bon
+
+Avantages :
+- Peut utiliser "Se cacher en pleine vue" une fois par jour tous les 5 niveaux : devient invisible et non-décelable.
+- Peut utiliser "Invoquer les ombres" une fois par jour tous les 6 niveaux. 2 ombres invoquées au niveau 9, 1 démombre invoqué au niveau 12, 2 démombres au niveau 18, 3 au niveau 3 24.
+
+Inconvénients :
+- Pénalité de 1 au CHA et à la CON tous les 5 niveaux.~
+@73 = ~DISCIPLE DU DRAGON ROUGE~
+@74 = ~DISCIPLE DU DRAGON ROUGE : On sait que certains dragons peuvent prendre une apparence humanoïde et prendre des amants parmi les créatures de ce type. Parfois, un humain naît d'une telle union et chaque descendant de cet enfant jusqu'à la millième génération possèdera une once de sang de dragon, si petite soit-elle. Habituellement, ils n'en retirent aucun avantage, quoique certains ensorceleurs dotés de puissants pouvoirs magiques, les attribuent à leur héritage draconien. Néanmoins, pour certains d'entre eux, le sang de dragon se manifeste de façon irrépressible. Ces personnages deviennent des disciples draconiens qui utilisent leur potentiel magique comme un catalyseur pour éveiller le sang de dragon qui sommeille en eux et révéler toute sa puissance.
+
+Avantages :
+- La peau du disciple draconien se change progressivement en écailles : Bonus de 1 à la CA tous les 3 niveaux. 
+- Gagne 6% de résistance au feu par niveau. (Maximum à 100%)
+- Niveau 4 : FOR+1, peut lancer "Mains ardentes" une fois par jour.
+- Niveau 8 : CON+1, peut lancer "Incinérateur d'agannazar" une fois par jour.
+- Niveau 12 : INT+1, peut lancer "Boule de feu" une fois par jour.
+- Niveau 16 : FOR+1, CHA+1, la peau devient rouge.
+- Niveau 20 : peut utiliser Souffle de dragon (6D10) une fois par jour, immunisé à l’étourdissement et à la paralysie.
+- Niveau 25 : peut utiliser toutes les capacités de type sort deux fois par jour. 
+- Niveau 30 : peut utiliser toutes les capacités de type sort trois fois par jour. 
+- Niveau 35 : peut utiliser Souffle de dragon deux fois par jour.
+
+Inconvénients :
+- N’a pas accès aux capacités de haut niveau de barde.
+- N'a seulement que la moitié du score de connaissance.
+- Mémorise un sort de moins par niveau de sort.~
+@75 = ~DISCIPLE DU DRAGON BLEU~
+@76 = ~DISCIPLE DU DRAGON BLEU : On sait que certains dragons peuvent prendre une apparence humanoïde et prendre des amants parmi les créatures de ce type. Parfois, un humain naît d'une telle union et chaque descendant de cet enfant jusqu'à la millième génération possèdera une once de sang de dragon, si petite soit-elle. Habituellement, ils n'en retirent aucun avantage, quoique certains ensorceleurs dotés de puissants pouvoirs magiques, les attribuent à leur héritage draconien. Néanmoins, pour certains d'entre eux, le sang de dragon se manifeste de façon irrépressible. Ces personnages deviennent des disciples draconiens qui utilisent leur potentiel magique comme un catalyseur pour éveiller le sang de dragon qui sommeille en eux et révéler toute sa puissance.
+
+Avantages :
+- La peau du disciple draconien se change progressivement en écailles : Bonus de 1 à la CA tous les 3 niveaux. 
+- Gagne 6% de résistance à l’électricité par niveau. (Maximum à 100%)
+- Niveau 4 : FOR+1, peut lancer "Poigne électrique" une fois par jour.
+- Niveau 8 : CON+1, peut lancer "Eclair" une fois par jour.
+- Niveau 12 : INT+1, peut lancer "Appel de la foudre" une fois par jour.
+- Niveau 16 : FOR+1, CHA+1, la peau devient bleue.
+- Niveau 20 : peut utiliser Souffle de dragon (6D10) une fois par jour, immunisé à l’étourdissement et à la paralysie.
+- Niveau 25 : peut utiliser toutes les capacités de type sort deux fois par jour. 
+- Niveau 30 : peut utiliser toutes les capacités de type sort trois fois par jour. 
+- Niveau 35 : peut utiliser Souffle de dragon deux fois par jour.
+
+Inconvénients :
+- N’a pas accès aux capacités de  haut niveau de barde.
+- N'a seulement que la moitié du score de connaissance.
+- Mémorise un sort de moins par niveau de sort.~
+@77 = ~DISCIPLE DU DRAGON BLEU VERT~
+@78 = ~DISCIPLE DU DRAGON BLEU VERT : On sait que certains dragons peuvent prendre une apparence humanoïde et prendre des amants parmi les créatures de ce type. Parfois, un humain naît d'une telle union et chaque descendant de cet enfant jusqu'à la millième génération possèdera une once de sang de dragon, si petite soit-elle. Habituellement, ils n'en retirent aucun avantage, quoique certains ensorceleurs dotés de puissants pouvoirs magiques, les attribuent à leur héritage draconien. Néanmoins, pour certains d'entre eux, le sang de dragon se manifeste de façon irrépressible. Ces personnages deviennent des disciples draconiens qui utilisent leur potentiel magique comme un catalyseur pour éveiller le sang de dragon qui sommeille en eux et révéler toute sa puissance.
+
+Avantages :
+- La peau du disciple draconien se change progressivement en écailles : Bonus de 1 à la CA tous les 3 niveaux. 
+- Gagne 6% de résistance à l’acide par niveau. (Maximum à 100%)
+- Niveau 4 : FOR+1, peut lancer "Orbe chromatique" une fois par jour.
+- Niveau 8 : CON+1, peut lancer "Flèche acide de Melf" une fois par jour.
+- Niveau 12 : INT+1, peut lancer "Contagion" une fois par jour.
+- Niveau 16 : FOR+1, CHA+1, sa peau devient verte.
+- Niveau 20 : peut utiliser Souffle de dragon (6D10) une fois par jour, immunisé à l’étourdissement et à la paralysie.
+- Niveau 25 : peut utiliser toutes les capacités de type sort deux fois par jour. 
+- Niveau 30 : peut utiliser toutes les capacités de type sort trois fois par jour. 
+- Niveau 35 : peut utiliser Souffle de dragon deux fois par jour.
+
+Inconvénients :
+- N’a pas accès aux capacités de  haut niveau de barde.
+- N'a seulement que la moitié du score de connaissance.
+- Mémorise un sort de moins par niveau de sort.~
+@79 = ~DISCIPLE DU DRAGON BLANC~
+@80 = ~DISCIPLE DU DRAGON BLANC : On sait que certains dragons peuvent prendre une apparence humanoïde et prendre des amants parmi les créatures de ce type. Parfois, un humain naît d'une telle union et chaque descendant de cet enfant jusqu'à la millième génération possèdera une once de sang de dragon, si petite soit-elle. Habituellement, ils n'en retirent aucun avantage, quoique certains ensorceleurs dotés de puissants pouvoirs magiques, les attribuent à leur héritage draconien. Néanmoins, pour certains d'entre eux, le sang de dragon se manifeste de façon irrépressible. Ces personnages deviennent des disciples draconiens qui utilisent leur potentiel magique comme un catalyseur pour éveiller le sang de dragon qui sommeille en eux et révéler toute sa puissance.
+
+Avantages :
+- La peau du disciple draconien se change progressivement en écailles : Bonus de 1 à la CA tous les 3 niveaux. 
+- Gagne 6% de résistance au froid par niveau. (Maximum à 100%)
+- Niveau 4 : STR+1, peut lancer "Toucher glacial" une fois par jour.
+- Niveau 8 : CON+1, peut lancer "Lenteur" une fois par jour.
+- Niveau 12 : INT+1, peut lancer "Tempête glaciale" une fois par jour.
+- Niveau 16 : FOR+1, CHA+1, la peau devient blanche.
+- Niveau 20 : peut utiliser Souffle de dragon (6D10) une fois par jour, immunisé à l’étourdissement et à la paralysie.
+- Niveau 25 : peut utiliser toutes les capacités de type sort deux fois par jour. 
+- Niveau 30 : peut utiliser toutes les capacités de type sort trois fois par jour. 
+- Niveau 35 : peut utiliser Souffle de dragon deux fois par jour.
+
+Inconvénients :
+- N’a pas accès aux capacités de  haut niveau de barde.
+- N'a seulement que la moitié du score de connaissance.
+- Mémorise un sort de moins par niveau de sort.~
+@81 = ~ELEMENTALISTE~
+@82 = ~ELEMENTALISTE : Les élémentalistes sont doués pour manipuler les éléments. Par leur entrainement avec les voies de la nature et leur intimité avec les esprits, ils peuvent traiter avec les essences naturelles très facilement.
+
+Avantages :
+- Gagne 10% de résistance au froid, au feu, à l’électricité et à l’acide. 10% sont encore gagnés aux niveaux 8 et 13.
+- Peut lancer les Convocations d'elémentaire mineur comme sort de 3eme niveau.
+- Peut utiliser "Assimilation du Feu/Electricité/Froid/Acide" une fois par jour tous les 10 niveaux : Il gagne régénération 1/sec, la résistance sélectionnée passe à 110%, les résistances aux autres éléments sont réduites de 50%, et toutes les attaques portées par l’élémentaliste bénéficient d’un bonus de 2D4 dégâts de l’élément sélectionné.
+
+Inconvénients :
+- Ne peut pas se transformer.
+- Le maximum de point de vie par niveau est réduit de 1, et il n'obtient que 1 point de vie par niveau après le niveau 9~
+@83 = ~DRUIDE DE L’OMBRE~
+@84 = ~DRUIDE DE L’OMBRE : les druides de l’ombre sont les plus sectaires des gardiens de la nature. Ils désapprouvent n’importe quelle commodité de la civilisation, et complotent au saint de leur propre groupe pour "naturaliser" le monde entier.
+
+Avantages :
+- Peut mémoriser un sort de plus par niveau de sort.
+- Peut se spécialiser dans les armes qu’il peut utiliser.
+- Bonus de +1 aux dégâts tous les 4 niveaux.
+- Bonus de +1 à l’attaque tous les 5 niveaux.
+- Gagne 5% de résistance physique tous les 7 niveaux.
+- Gagne 1/2 attaque en bonus aux niveaux 8 et 16.
+- Peut utiliser la capacité "Ascension" une fois par jour tous les 9 niveaux : le personnage ne peut pas mourir par des dégâts reçus ou par des effets de sorts pendant 3 rounds.
+- Niveau 6 : Gagne +1 en Force
+- Niveau 12 : Gagne +1 en Constitution
+- Niveau 18 : Gagne +1 en Sagesse
+- Niveau 20 : La durée de "Ascension" passe à 4 rounds.
+- Niveau 24 : Gagne +1 en Force
+- Niveau 30 : Gagne +1 En constitution et la durée de "Ascension" passe à 5 rounds.
+- Niveau 36 : Gagne +1 en Sagesse
+
+
+
+Inconvénients :
+- Ne peut pas porter d'armure plus épaisse que la besantine, et ne peux utiliser aucune armes métalliques, ainsi qu’aucun objets magiques exceptés armes et armures.
+- Ne peut pas se jumeler.~
+@91 = ~Symbole sacré de Tempus~
+@92 = ~ Seuls les serviteurs les plus dignes et fervents du Marteleur d'ennemis se voient accorder ces puissants symboles sacrés.
+
+PARAMETRES
+
+Capacités d’équipement :
+Mémorisation d'un sort supplémentaire du 6ème et du 7ème niveau.
++5 % de Résistance magique.
+Force : bonus de +1.
+
+Utilisable seulement par :
+Clercs loyaux.~
+@93 = ~Symbole sacré d’Ohgma~
+@94 = ~Seuls les serviteurs les plus dignes et fervents de l’Archiviste de ce qui est connu se voient accorder ces puissants symboles sacrés.
+
+PARAMETRES
+
+Capacités d’équipement :
+Mémorisation d'un sort supplémentaire du 6ème et du 7ème niveau.
++5 % de Résistance magique.
+Force : bonus de +1.
+
+Utilisable seulement par :
+Clercs non chaotiques.~
+@101 = ~Immobile~
+@102 = ~~
+@103 = ~Instoppable ~
+@104 = ~~
+@105 = ~Peau blindée~
+@106 = ~~
+@107 = ~Animation des morts~
+@108 = ~~
+@109 = ~vision intérieure~
+@110 = ~~
+@111 = ~Encouragement~
+@112 = ~~
+@113 = ~Déblocage~
+@114 = ~~
+@115 = ~Châtiment du mal~
+@116 = ~~
+@117 = ~Tempête~
+@118 = ~~
+@119 = ~Cécité~
+@120 = ~~
+@121 = ~Attaque sournoise Impromptue~
+@122 = ~~
+@123 = ~Se cacher en pleine vue~
+@124 = ~~
+@125 = ~Invoquer les ombres~
+@126 = ~~
+@127 = ~Souffle enflammé de dragon rouge~
+@128 = ~~
+@129 = ~Souffle électrique de dragon bleu~
+@130 = ~~
+@131 = ~Souffle acide de dragon vert~
+@132 = ~~
+@133 = ~Souffle glacé de dragon blanc~
+@134 = ~~
+@135 = ~Attaque Acrobatique~
+@136 = ~~
+@137 = ~Bouclier~
+@138 = ~Bouclier (Evocation) 
+Niveau : 1
+Portée : 0 
+Durée : 5 tours
+Temps d'incantation : 1 
+Zone d'effet : jeteur de sorts
+Jet de sauvegarde : aucun
+
+Lorsque ce sort est lancé, une barrière invisible apparaît devant le paladin. Le bouclier confère au paladin une CA de 4 contre toutes les armes et une CA de 2 face à des attaques de projectiles. Il immunise aussi aux effets du sort Projectiles magiques. l'effet du sort dure jusqu’à expiration ou dissipation.~
+@139 = ~Amitié~
+@140 = ~Amitié (Enchantement/Charme) 
+Niveau : 1
+Portée : 0 
+Durée : 1d4 rounds + 1 round/niveau 
+Temps d'incantation : 1 
+Zone d'effet : jeteur de sorts 
+Jet de sauvegarde : spécial 
+Le sort d'amitié permet au paladin d'acquérir temporairement 6 points de charisme. Les créatures qui voient le jeteur de sorts sont très impressionnées par lui et désirent être ses amies et l'aider, en fonction de la situation dans laquelle il se trouve. Des bureaucrates trop zélés peuvent décider de se montrer serviables ; des gardes un peu bornés peuvent se montrer loquaces ; des orques agressifs peuvent décider de garder le paladin captif plutôt que de le tuer.~
+@141 = ~Familier~
+@142 = ~Familier 
+(Conjuration/Convocation)
+Niveau : 1
+Portée : n/d
+Durée : Spéciale
+Temps d'incantation : 1 round
+Zone d'effet : 1 familier
+Jet de sauvegarde : Spécial
+
+Ce sort permet au paladin de tenter la convocation d'un familier qui deviendra son aide et son compagnon. Les familiers sont de petites créatures. Une créature agissant en tant que familier peut aider le paladin en envoyant ses pouvoirs sensoriels vers son maître, en lui parlant ou en lui servant de garde, d’éclaireur ou d'espion.
+Remarque : Le paladin ne peut avoir qu’un seul familier
+La créature est toujours plus intelligente que les autres de même type (généralement de 2 ou 3 points d'intelligence), et ses liens avec le paladin lui confèrent une vie particulièrement longue. Le paladin garde un lien empathique avec le familier et peut lui transmettre des ordres mentalement.
+
+Le paladin reçoit un bonus valant la moitié des points de vie du familier. Mais il doit veiller à bien traiter son familier, car s’il meurt, il perd les points de bonus et subit des points de dégâts équivalents à la moitié des points de vie du familier. De plus, si un familier meurt, le paladin perd 1 point de constitution de manière PERMANENTE.
+
+Exemple : le paladin a 42 points de vie et lance le sort Familier. Le dragon convoqué a 18 points de vie, le paladin obtient donc un bonus de 9 points de vie. Il dispose maintenant de 51 points de vie. Si le familier meurt, le paladin perd ces 9 points de vie (il revient à 42), 1 point de constitution en permanence (ce qui peut entraîner la perte d'autres points de vie), et subit 9 points de dégâts.
+Voilà votre familier:
+
+Pseudo-dragon
+Classe d'armure : -2
+Points de vie : 24
+Résistance magique : 50 %
+Capacités spécifiques : 2 attaques par round, TAC0 13, dégâts 1d3 avec jet de sauvegarde contre la mort sous peine d'inconscience pendant 120 secondes. Peut également incanter "Flou" une fois par jour. Régénère d'un point de vie par round. Est immunisé contre l'absorption de niveau, le sommeil et la pétrification.~
+@143 = ~Image miroir~
+@144 = ~Image miroir (Illusion/Fantasme) 
+Niveau : 2
+Portée : 0
+Durée : 3 rounds + 1 round/niveau 
+Temps d'incantation : 1 
+Zone d'effet : spéciale
+Jet de sauvegarde : aucun
+
+Lorsqu’il invoque une image miroir, le paladin fait apparaître 2 à 8 répliques de lui-même. Ces images agissent exactement de la même façon que le paladin. Comme le sort provoque une légère distorsion visuelle, les ennemis du jeteur de sorts ne peuvent identifier le vrai paladin parmi toutes les silhouettes. Lorsqu'un sosie est touché dans un combat de mêlée ou de projectiles (magiques ou non), il disparaît; mais les autres restent jusqu’à ce qu’ils soient frappés à leur tour. Mais il est important de noter que le lanceur du sort n’est pas protégé de toutes les attaques, l'ennemi pouvant très bien le viser parmi ses multiples images.~
+@145 = ~Armure fantomatique~
+@146 = ~Armure fantomatique (Conjuration/Convocation)
+Niveau : 2
+Portée : 0
+Durée : 5 tours
+Temps d'incantation : 1 
+Zone d'effet : lanceur du sort
+Jet de sauvegarde : aucun
+
+Grâce à ce sort, le paladin crée un champ de force magique qui protège la cible comme une armure en cotte de mailles (CA 2). Ce sort peut être cumulé avec la Dextérité et, dans le cas des guerriers/mages, avec le bonus de bouclier. L’armure fantomatique n’empêche pas de bouger, ne pèse rien et n’encombre pas le bénéficiaire. Elle n’empêche pas de lancer des sorts. Elle dure jusqu’à ce que quelqu'un dissipe le sort ou jusqu’à expiration de sa durée normale.~
+@147 = ~Eclair~
+@148 = ~Eclair (Evocation) 
+Niveau : 2
+Portée : 40 mètres +10 mètres/niveau
+Durée : instantanée
+Temps d'incantation : 3 
+Zone d'effet : spéciale 
+Jet de sauvegarde : 1/2
+En lançant ce sort, le paladin libère une décharge électrique puissante qui inflige 1d6 points de dégâts par niveau du jeteur de sorts (dégâts maximum de 10d6) à chaque créature située dans la zone d'effet. Un jet de sauvegarde contre les sorts réussi permet de n’encaisser que la moitié des dégâts (arrondis à la fraction inférieure). L’éclair prend naissance à une portée et une hauteur déterminées par le paladin et s’étend sur une ligne directe partant du paladin. Par exemple, si un éclair de 12 m est lancé à 54 m du paladin, son extrémité la plus éloignée est à 66 mètres (54 +12). Si l’éclair rencontre un mur, il rebondit jusqu’à ce qu’il atteigne sa longueur complète.~
+@149 = ~Feu solaire~
+@150 = ~Feu solaire (Evocation) 
+Niveau : 3
+Portée : Lanceur du sort
+Durée : Instantanée
+Temps d'incantation : 3 
+Zone d'effet : Rayon de 9 mètres
+Jet de sauvegarde : 1/2 
+
+Ce sort est identique à une boule de feu, une flamme explosive qui éclate avec un bruit sourd et inflige des dégâts proportionnels au niveau du paladin, 1d6 points de dégâts par niveau du paladin (maximum 15d6). Le paladin fait un geste de la main et la zone qui l'entoure est envahie de flammes, frappant toutes les créatures à l'exception du lanceur du sort. Les créatures qui ne réussissent pas de jet de sauvegarde subissent la totalité des dégâts de l'explosion. Celles qui réussissent peuvent éviter les flammes, tomber à terre ou rouler de côté, mais reçoivent la moitié des points de dégâts.~
+@151 = ~Cône de froid~
+@152 = ~Cône de froid (Evocation) 
+Niveau : 3
+Portée : 0 
+Durée : instantanée 
+Temps d'incantation : 5 
+Zone d'effet : spéciale 
+Jet de sauvegarde : 1/2
+Ce sort crée une zone de froid extrême en forme de cône, qui part des mains du paladin et qui mesure 1,5 m de long et 30 cm de diamètre par niveau du jeteur de sorts. Il absorbe la chaleur et inflige 1d4 +1 points de dégâts par niveau d'expérience du paladin. Un paladin du 10ème niveau inflige donc des dégâts de 10d4 +10 points avec un cône de froid de 3 m de diamètre sur 15 m de long.~
+@153 = ~Abaissement de la Résistance~
+@154 = ~Abaissement de la Résistance (Abjuration, Altération)
+Niveau : 3
+Portée : champ visuel du jeteur de sort
+Durée : 1 round / niveau
+Temps d'incantation : 5
+Zone d'effet : Créature ciblée
+Jet de sauvegarde : Aucun
+
+Lorsque ce sort est lancé sur une créature, il abaisse la résistance à la magie de sa cible de 10 % + 1 % par niveau du jeteur de sort. Aucun jet de sauvegarde contre ce sort n’est applicable et la résistance magique est ignorée. Par exemple, si une créature a 60 % de résistance à la magie et que ce sort est lancé sur elle par un paladin de niveau 15, sa résistance à la magie se trouve abaissée de 25 % automatiquement. Les effets de ce sort se cumulent à chaque fois qu’il est lancé sur la même cible. Si ce sort était jeté à nouveau sur la créature précédente, sa résistance à la magie serait de 60 % - 25 % (premier sort) - 25 % (second sort) ce qui lui laisserait à peine 10 % de résistance à la magie une fois les deux sorts lancés. Ce sort reste actif jusqu’à ce que sa durée arrive à expiration. Il convient de noter que ce sort n’est pas affecté par une dissipation de la magie. Une fois lancé, il n’existe aucun moyen d'annuler ses effets avant son terme nature~
+@155 = ~Vision véritable~
+@156 = ~Vision véritable (Divination)
+Niveau : 4
+Portée : 0
+Durée : 1 tour
+Temps d'incantation : 8
+Zone d'effet : rayon de 20 m
+Jet de Sauvegarde : Non
+
+Ce sort dissipe tous les sorts hostiles d'illusion ou de Fantasme dans la zone d'effet. Les sorts affectés sont : Image réfléchie, Invisibilité, Image miroir, Non-détection, Invisibilité améliorée, Porte d'ombre, Détection faussée, Projection d'image et Simulacre. Ce sort n’affecte que les ennemis, et leur Résistance magique est ignorée.~
+@157 = ~Contingence~
+@158 = ~Contingence (Evocation)
+Niveau : 4
+Portée : Champ visuel du lanceur
+Durée : 1 jour par niveau
+Temps d'incantation : 1 tour
+Zone d'effet : Spécial
+Jet de Sauvegarde : Non
+
+Ce sort permet au lanceur de choisir un sort parmi ceux qu’il connaît (un niveau de sort par trois niveaux du lanceur, soit un sort de 6ème niveau au maximum pour un paladin de niveau 18). Ensuite, le paladin spécifie une condition parmi les options fournies. Cette condition peut aller de la vue d'un ennemi à 10 % des points de vie. Quand elle est remplie, le sort est automatiquement et instantanément lancé, sans requérir d'action de la part du paladin. Par exemple, un paladin du 12ème niveau pourrait placer une Contingence avec le sort Peau de pierre, et comme condition " 50 % des points de vie ". Ainsi, en combat, dès qu’il sera réduit à 50 % ou moins de ses points de vie, le sort Peau de pierre sera lancé. Comme la cible ne peut être que le paladin lui-même, il ne peut pas utiliser de sort offensif ou destiné à un autre individu.~
+@159 = ~Déviation de sorts~
+@160 = ~Déviation de sorts (abjuration)
+Niveau : 6
+Portée : 0
+Durée : 3 rounds / niveau
+Temps d'incantation : 6
+Zone d'effet : le jeteur de sorts
+Jet de sauvegarde : Aucun
+Ce puissant sort d'abjuration absorbe n’importe quel sort lancé contre le paladin. Il affecte un total de 10 niveaux de sorts, y compris ceux provenant de parchemins ou de compétences semblables aux sorts. Les sorts de zone stationnaires ou non-centrés sur le paladin, comme le Nuage puant ou le Nuage mortel par exemple, ne sont pas absorbés. Le sort doit être lancé spécifiquement sur le paladin pour qu’il soit absorbé. Si on essaye d'absorber un sort au-delà de sa limite, le sort échouera et la déviation sera annulée.  Par exemple si un sort de troisième niveau frappe le paladin alors qu’il ne lui reste qu'un niveau de déviation, le sort sera absorbé et les effets de la déviation annulés.~
+@161 = ~Déviation de sorts~
+@162 = ~~
+@163 = ~Déviation de sorts~
+@164 = ~~
+@165 = ~Orbe Chromatique~
+@166 = ~~
+@167 = ~Toucher glacial~
+@168 = ~~
+@169 = ~Incinérateur d'agannazar~
+@170 = ~~
+@171 = ~Eclair~
+@172 = ~~
+@173 = ~Incinérateur d'agannazar~
+@174 = ~~
+@175 = ~Lenteur~
+@176 = ~~
+@177 = ~Boule de feu~
+@178 = ~~
+@179 = ~Appel de la foudre~
+@180 = ~~
+@181 = ~Contagion~
+@182 = ~~
+@183 = ~Incinérateur d'agannazar~
+@184 = ~~
+@185 = ~Assimilation~
+@186 = ~~
+@187 = ~Assimilation du feu~
+@188 = ~~
+@189 = ~Assimilation de l’électricité~
+@190 = ~~
+@191 = ~Assimilation de l'acide~
+@192 = ~~
+@193 = ~Assimilation du froid~
+@194 = ~~
+@195 = ~Ascension~
+@196 = ~~
+@197 = ~Convocation d'elémental de Feu mineur~
+@198 = ~Convocation d'elémental de Feu mineur (Conjuration/Convocation)
+Niveau : 3
+Portée : 15 m
+Durée : 1 tour
+Temps d'incantation : Spécial
+Zone d'effet : Spéciale
+Jet de Sauvegarde : Non
+
+Ce sort invoque un Elémental de feu mineur au service du lanceur du sort. L’élèmental à 8 dé de vie et restera sous le contrôle de lanceur jusqu’à sa mort, son bannissement, ou l'expiration de la durée du sort.~
+@199 = ~Convocation d'elémental d'air mineur~
+@200 = ~Convocation d'elémental d'air mineur (Conjuration/Convocation)
+Niveau : 3
+Portée : 15 m
+Durée : 1 tour
+Temps d'incantation : Spécial
+Zone d'effet : Spéciale
+Jet de Sauvegarde : Non
+
+Ce sort invoque un Elémental d'air mineur au service du lanceur du sort. L’élèmental à 8 dé de vie et restera sous le contrôle de lanceur jusqu’à sa mort, son bannissement, ou l'expiration de la durée du sort.~
+@201 = ~Convocation d'elémental de Terre mineur~
+@202 = ~Convocation d'elémental de Terre mineur (Conjuration/Convocation)
+Niveau : 3
+Portée : 15 m
+Durée : 1 tour
+Temps d'incantation : Spécial
+Zone d'effet : Spéciale
+Jet de Sauvegarde : Non
+
+Ce sort invoque un Elémental de terre mineur au service du lanceur du sort. L’élèmental à 8 dé de vie et restera sous le contrôle de lanceur jusqu’à sa mort, son bannissement, ou l'expiration de la durée du sort.~
+@203 = ~~
+@204 = ~~
+@205 = ~~
+@206 = ~~
+@207 = ~~
+@208 = ~~
+@209 = ~~
+@210 = ~~
+@211 = ~~
+@212 = ~~
+@213 = ~~
+@214 = ~~
+@215 = ~~
+@216 = ~~
+@217 = ~~
+@218 = ~~
+@219 = ~~
+@220 = ~~

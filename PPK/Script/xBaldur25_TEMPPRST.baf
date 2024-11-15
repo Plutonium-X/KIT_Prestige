@@ -1,0 +1,59 @@
+IF
+  HasItem("CDHLYSYM",Player1)
+  Kit(Player1,TEMPPRST)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CDHLYSY2",Player1)
+    TakeItemReplace("eitempus","CDHLYSYM",Player1)
+    Continue()
+END
+
+IF
+  HasItem("CDHLYSYM",Player2)
+  Kit(Player2,TEMPPRST)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CDHLYSY2",Player2)
+    TakeItemReplace("eitempus","CDHLYSYM",Player2)
+    Continue()
+END
+
+IF
+  HasItem("CDHLYSYM",Player3)
+  Kit(Player3,TEMPPRST)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CDHLYSY2",Player3)
+    TakeItemReplace("eitempus","CDHLYSYM",Player3)
+    Continue()
+END
+
+IF
+  HasItem("CDHLYSYM",Player4)
+  Kit(Player4,TEMPPRST)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CDHLYSY2",Player4)
+    TakeItemReplace("eitempus","CDHLYSYM",Player4)
+    Continue()
+END
+
+IF
+  HasItem("CDHLYSYM",Player5)
+  Kit(Player5,TEMPPRST)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CDHLYSY2",Player5)
+    TakeItemReplace("eitempus","CDHLYSYM",Player5)
+    Continue()
+END
+
+IF
+  HasItem("CDHLYSYM",Player6)
+  Kit(Player6,TEMPPRST)
+THEN
+  RESPONSE #100
+    ApplySpellRES("CDHLYSY2",Player6)
+    TakeItemReplace("eitempus","CDHLYSYM",Player6)
+    Continue()
+END

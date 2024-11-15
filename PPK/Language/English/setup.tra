@@ -1,0 +1,539 @@
+
+@2 = ~Setup cannot find [Throne of Bhaal] expansion.~
+
+@20 = ~Prestige Kit Pack Basic~
+
+@51 = ~Dreadnought~
+@52 = ~Dreadnought:The Dreadnought is the ultimate foot soldier, an absolute force of destruction, a total warrior who excels at sheer combat prowess. While some rely of cunning and reflexes in a fight, and others uphold a code of honor or engage in combat from horseback, the Legendary Dreadnought simply wades into battle, completely bent on relentless, steady destruction. When the tide of combat flows against him, he stands like a rock. It is the Legendary Dreadnought who has the might to breach the seemingly unbreachable gates.
+
+Requirement: STR and CON 13.
+
+Advantage:
+- +1 damage per 5 level.
+- Can use 'Unmovable' once per 6 levels after level 3: cannot move during 3 rounds, but gain immunity to wing buffet and 2+ 1 per 8 level AC bonus.
+- Can use 'Unstoppable' once per 6 levels: gain free action and +1 damage bonus per 4 level.
+- Can select high level ability 'armor skin' 5 times. physical resistances improves 5% in permanently.
+
+Disadvantage:
+- Cannot use ranged weapon
+- DEX, INT, WIS, CHA -2 penalty.
+- Cannot dualclass~
+@53 = ~Blackguard~
+@54 = ~Blackguard:The blackguard epitomizes evil. He is nothing short of a mortal fiend. The quintessential black knight, this villain carries a reputation of the foulest sort that is very well deserved. Consorting with demons and devils serving dark deities, the blackguard is hated and feared by all. Some people call these villains anti-paladins due to their completely evil nature. Their black hearts revel only in darkness.
+
+Alignment: Evil
+
+Advantage:
+- Can use backstab x2 at level 6, x3 at level 14.
+- Can cast Summon Undead once per 5 levels (skeleton at level 5, spectre at level 10, mummy at level 15.)
+- Can cast invisibility once at level 4, twice at level 10.
+- Gain +2 bonus all saving throw.
+- Can Summon fallen deva for high level ability.
+
+Disadvantage:
+- loses reputaion by 1 point per every level up.
+- Cannot proficient more 4 point per weapons.~
+@55 = ~Ssaulabi~
+@56 = ~Ssaulabi:Ssaulabi specialized in all bow-using-skills. they gain marvelous abilities from their discipline, characteristic and traditional meditation.
+
+Advantage:
+- +1 bonus in ranged attack damage and THAC0 per 4 level.
+- Can use 'Inward eyes' once per 5 levels: gain 5 THAC0 bonus and True sight during 2 rounds.
+- Can select high level ability 'Tracking', 'Evasion', 'Improved Evasion'.
+- Level 2: 1 bonus to speed factor.
+- Level 9: movement faster by 2 point.
+- Level 16: Immune to charm and confuse, horror. 1 additional bonus to speed factor.
+
+Disadvantage:
+- Ssaulabi cannot learn two-handed weapon exceptes bows, and cannot wear plate and full plate armor.
+- Cannot assign over 3 point to weapon proficiency except bows.~
+@57 = ~Priest of Tempus~
+@58 = ~Priest of Tempus:Dauntless priests of tempus, the god of the war, have no fear for burning up their soul in battlefield due to their own faith. they are true warrior, and most reliable cleric when you are facing enemies.
+
+Alignment:Non-lawful
+
+Advantage:
+- Priest of Tempus can specialize usable weapons.
+- Can use 'Encouragement' once per 5 level.:all party members gain 2 bonus at THAC0, damage, all saving throws.
+
+Disadvantage:
+- None.~
+@59 = ~Priest of Ohgma~
+@60 = ~Priest of Ohgma:Ohgma, lord of knowledge and invention, curiosity promises fully knowledge to his priests. this priests are not the most 'magnificient' fighters, but they give helps everywhere... like knowledge itself.
+
+Alignment:Non-Chaotic
+
+advantage:
+- Gains 2 additional lore per level.
+- Can use 'Alchemy' once per 8 levels.
+- Can use any items on level 20.
+
+Disadvantage:
+- None.~
+@61 = ~Champion~
+@62 = ~Champion: The champion is the strong right arm of their deity. They serve as a guardian of holy sites, a protector of pilgrims and a leader of crusades. Though paladins fill these roles in many good-aligned churchs, a champion can take up the banner of any deity, regardless of alignment or ethos. These holy warriors are loved by their patron's worshipers and hated by the church's enemies in equal measure.
+
+Advantage:
+- Can use 'Smite Evil' once per 4 level.: bonus damage of 5 + 1 per level (10 for maximum) vs evil creatures during 5 rounds.
+- Champion can proficient 3 point for usable weapons.
+
+Disadvantage:
+- Cannot cast priest spells.
+- Cannot use ranged weapons.~
+@63 = ~Mystic Fire~
+@64 = ~Mystic Fire:For royal servants of mystra the lady of magic, mystic fires usually picked out amongst with natural disposition to magic, and able to cast powerful arcane magic through all transmissions of their order.
+
+Advantage:
+- 1% magic resistance per level to 20.
+- Gain listed spells for divine.
+- Level 1: Shield, Friends, Find Familiar
+- Level 2: Mirror Image, Ghost Armor, Lightning Bolt
+- Level 3: Sunfire, Cone of Cold, Lower Resistance
+- Level 4: True sight, Contingency, Spell Deflection
+- Gain high level ability 'Use Any Item','Scribe Scroll','Alchemy'.
+- Spell slot increases for 5 per spell level.
+
+Disadvantage:
+- Cannot use any paladin ability except spells.
+- Cannot proficient weapon style.
+- Cannot select Greater Whirlwind Attack, Greater Deathblow, Critical Strike, Smite.~
+@65 = ~Duelist~
+@66 = ~Duelist:The Duelist is a nimble, intelligent fighter trained in making precise attacks with light weapons, such as the rapier. Also known as the swashbuckler, the Duelist always takes full advantage of his quick reflexes and wits in a fight. Rather than wearing bulky armor, Duelists feel that the best way to protect themselves is to not get hit at all.
+
+Advantage:
+- AC bonus 2 + 1 per 5 level.
+- +1 bonus damage per 4 level.
+- Can use 'Acrobatic Attack' ability once per 5 levels.:Gain +3 bonus to THAC0, AC and all Saving throws during 2 rounds.
+- Can proficient 3 point for usable weapons.
+- Can select high level ability 'Evasion' and 'Greater Evasion'.
+
+Disadvantage:
+- Cannot use any ranger abilities.
+- Cannot wear armors.
+- Cannot proficient blunt weapons and bastard sword, two-handed weapons except quarterstaff.
+- Cannot select high level ability 'Hardiness','Tracking'.~
+@67 = ~Tempest~
+@68 = ~Tempest:The Tempest is the point of calm within a whirling barrier of deadly blades. Poets use colorful terms such as dancer to describe the movement of a Tempest and her two blades, but mastery of this fighting style is not about dancing. Nor is it about impressing anyone - least of all poets. The Tempest focuses on learning the ultimate secrets of two-weapon fighting for a single purpose - the destruction of her enemies.
+
+Advantage:
+- +1 AC bonus at level 7, 14, and 23.
+- Can use 'Tempest' ability once per 8 levels.:in this effect, you gain 4 AC bonus and can move faster, and attack by double ApR.
+- Level 5: +1/2 Attack per round.
+- Level 16: Doesn't get 2 THAC0 penalty for off-hand weapon.
+
+Disadvantage:
+- Cannot proficient two-handed weapons and weapon styles except two-weapon-style.
+- Cannot use charm animal and ranger spells.
+- Cannot wear metallic armors.~
+@69 = ~Trickster~
+@70 = ~Trickster:Tricksters combine their knowledge of spells with a taste for intrigue, larceny or just plain mischief. They are among the most adaptable of adventurers. Tricksters tend to use a seat of the pants approach to adventuring, loading up on spells that improve their stealth and mobility.
+
+Alignment:Non-Lawful
+
+Advantage:
+- Can cast 'Blindness' once per 4 levels.
+- Can cast 'Knock' once per 5 levels.
+- Can cast 'Impromptu Backstab' once per 6 levels.:Your (fast) next attack after this ability recognized like backstab.
+
+Disadvantage:
+- 15 penalty to lockpicking and find traps.
+- Backstab multiplier doesn't increased more than x3.~
+@71 = ~Shadowdancer~
+@72 = ~Shadowdancer:Shadowdancers are able to use the cloak of shadows for a variety of powerful effects, such as hiding in plain sight or teleporting a short range through shadows.
+
+Alignment:Non-Lawful or Good
+
+Advantage:
+- Can use 'Hide in Plain Sight' once per 5 levels.:You become invisible and non-detectable.
+- Can use 'Summon Shadows' once per 6 levels. 2 shadows summoned at level 9, and Shadow devil summoned at level 12, 2 Shadow devils at level 18, 3 at level 24.
+
+Disadvantage:
+- 1 penalty for CHA or CON per 5 levels.~
+@73 = ~Red Dragon Disciple~
+@74 = ~Red Dragon Disciple:It is rumored that the magical powers of sorcerers and bards are somehow connected to the presence of dragon blood in their family tree. Red Dragon Disciples are sorcerers, and sometimes bards, who use their magical power as a catalyst to ignite their red dragon blood, realizing its fullest potential. They prefer a life of exploration to a cloistered existence. Already adept at magic, many pursue adventure, especially if it furthers their goal of finding out more about their draconic heritage. They often feel drawn to areas known to harbor dragons.
+
+Advantage:
+- Your skin becomes harder and gain 1 bonus AC per 3 levels. lower AC between your skin and armor will be applied.
+- Gain 6% fire resistance per level. (Maximum at 100%)
+- Level 4: STR+1, can cast 'Burning Hands' once per day.
+- Level 8: CON+1, can cast 'Agannazar's Scorcher' once per day.
+- Level 12: INT+1, can cast 'Fireball' once per day.
+- Level 16: STR+1, CHA+1, your skin become red.
+- Level 20: Can use Dragon breath (6D10) once per day, immune to stun and paralysis.
+- Level 25: Can use all spell-like abilities twice per day. 
+- Level 30: Can use all spell-like abilities trice per day. 
+- Level 35: Can use Dragon breath twice per day.
+
+Disadvantage:
+- Cannot select bard-specific high level abilities.
+- Can only get one-half lore than other bards.
+- -1 penalty for spell slots per level.~
+@75 = ~Blue Dragon Disciple~
+@76 = ~Blue Dragon Disciple:It is rumored that the magical powers of sorcerers and bards are somehow connected to the presence of dragon blood in their family tree. Red Dragon Disciples are sorcerers, and sometimes bards, who use their magical power as a catalyst to ignite their red dragon blood, realizing its fullest potential. They prefer a life of exploration to a cloistered existence. Already adept at magic, many pursue adventure, especially if it furthers their goal of finding out more about their draconic heritage. They often feel drawn to areas known to harbor dragons.
+
+Advantage:
+- Your skin becomes harder and gain 1 bonus AC per 3 levels. lower AC between your skin and armor will be applied.
+- Gain 6% lightning resistance per level. (Maximum at 100%)
+- Level 4: STR+1, can cast 'Shocking Grasp' once per day.
+- Level 8: CON+1, can cast 'Lightning Bolt' once per day.
+- Level 12: INT+1, can cast 'Call Lightning' once per day.
+- Level 16: STR+1, CHA+1, your skin become blue.
+- Level 20: Can use Dragon breath (6D10) once per day, immune to stun and paralysis.
+- Level 25: Can use all spell-like abilities twice per day. 
+- Level 30: Can use all spell-like abilities trice per day. 
+- Level 35: Can use Dragon breath twice per day.
+
+Disadvantage:
+- Cannot select bard-specific high level abilities.
+- Can only get one-half lore than other bards.
+- -1 penalty for spell slots per level.~
+@77 = ~Green Dragon Disciple~
+@78 = ~Green Dragon Disciple:It is rumored that the magical powers of sorcerers and bards are somehow connected to the presence of dragon blood in their family tree. Red Dragon Disciples are sorcerers, and sometimes bards, who use their magical power as a catalyst to ignite their red dragon blood, realizing its fullest potential. They prefer a life of exploration to a cloistered existence. Already adept at magic, many pursue adventure, especially if it furthers their goal of finding out more about their draconic heritage. They often feel drawn to areas known to harbor dragons.
+
+Advantage:
+- Your skin becomes harder and gain 1 bonus AC per 3 levels. lower AC between your skin and armor will be applied.
+- Gain 6% acid resistance per level. (Maximum at 100%)
+- Level 4: STR+1, can cast 'Chromatic Orb' once per day.
+- Level 8: CON+1, can cast 'Melf's Acid Arrow' once per day.
+- Level 12: INT+1, can cast 'Contagion' once per day.
+- Level 16: STR+1, CHA+1, your skin become green.
+- Level 20: Can use Dragon breath (6D10) once per day, immune to stun and paralysis.
+- Level 25: Can use all spell-like abilities twice per day. 
+- Level 30: Can use all spell-like abilities trice per day. 
+- Level 35: Can use Dragon breath twice per day.
+
+Disadvantage:
+- Cannot select bard-specific high level abilities.
+- Can only get one-half lore than other bards.
+- -1 penalty for spell slots per level.~
+@79 = ~White Dragon Disciple~
+@80 = ~White Dragon Disciple:It is rumored that the magical powers of sorcerers and bards are somehow connected to the presence of dragon blood in their family tree. Red Dragon Disciples are sorcerers, and sometimes bards, who use their magical power as a catalyst to ignite their red dragon blood, realizing its fullest potential. They prefer a life of exploration to a cloistered existence. Already adept at magic, many pursue adventure, especially if it furthers their goal of finding out more about their draconic heritage. They often feel drawn to areas known to harbor dragons.
+
+Advantage:
+- Your skin becomes harder and gain 1 bonus AC per 3 levels. lower AC between your skin and armor will be applied.
+- Gain 6% cold resistance per level. (Maximum at 100%)
+- Level 4: STR+1, can cast 'Chill Touch' once per day.
+- Level 8: CON+1, can cast 'Slow' once per day.
+- Level 12: INT+1, can cast 'Ice Storm' once per day.
+- Level 16: STR+1, CHA+1, your skin become white.
+- Level 20: Can use Dragon breath (6D10) once per day, immune to stun and paralysis.
+- Level 25: Can use all spell-like abilities twice per day. 
+- Level 30: Can use all spell-like abilities trice per day. 
+- Level 35: Can use Dragon breath twice per day.
+
+Disadvantage:
+- Cannot select bard-specific high level abilities.
+- Can only get one-half lore than other bards.
+- -1 penalty for spell slots per level.~
+@81 = ~Elementalist~
+@82 = ~Elementalist:Elimentalist is skilled in manipulating natural elements. through all trainning of nature's way and intimacy with spirits, they can deal with natural essences in very easy way.
+
+Advantage:
+- Gain 10% cold, fire, electrical, acid resistance at also level 8 and 13.
+- Can cast Conjure Lesser Elementals as 3rd level spell.
+- Can use 'Fire/Electrical/Cold/Acid Assimilation' ability once per 10 levels.:Gain regeneration 1/sec, selected resistance improves to 110, other elemental resistances decreases by 50 points, and gain 2D4 selected elemental damage bonus in all attacks made by character.
+
+Disadvantage:
+- Cannot use druidic shape change abilities.
+- Maximum hp is lower than 1, and can get only 1 hp after level 9.~
+@83 = ~Shadowdruid~
+@84 = ~Shadowdruid:Shadow druids are the most bigoted wardens of nature. they disapprove whatever convenience of civilization, and plots for 'naturalize' whole the world in their own group.
+
+Advantage:
+- Gain spell slot per levels.
+- Can specialize usable weapons.
+- Gain 1 damage bonus per 4 levels.
+- Gain 1 THAC0 bonus per 5 levels.
+- Gain +1 STR, CON, WIS by turns per 6 levels.
+- Gain 5% physical resistances per 7 levels.
+- Gain extra 1/2 attack per round in level 8 and level 16.
+- Can use 'Ascension' ability once epr 9 levels.:Character will not perished by any damage or spells during 3 rounds.
+- Levels 20: Duration of Ascension increases to 4 rounds.
+- Levels 30: Duration of Ascension increases to 5 rounds.
+
+Disadvantage:
+- Cannot use armors heavy than leather armor, metalic weapons, magic items excepts weapon and armor.
+- Cannot dualclass.~
+@91 = ~Holy Symbol of Tempus~
+@92 = ~Only those most worthy and devoted servants of the Foehammer are granted these powerful holy symbols. 
+
+STATISTICS:
+
+   Grants an additional 6th and 7th level spell.
+   5% Magic Resistance while worn
+   +1 to Strength while worn
+
+Usuable By:
+Non-Lawful Clerics~
+@93 = ~Holy Symbol of Ohgma~
+@94 = ~Only those most worthy and devoted servants of the Binder of What is Known are granted these powerful holy symbols. 
+
+STATISTICS:
+
+   Grants an additional 6th and 7th level spell.
+   5% Magic Resistance while worn
+   +1 to Strength while worn
+
+Usuable By:
+Non-Chaotic Clerics~
+@101 = ~Unmovable~
+@102 = ~~
+@103 = ~Unstoppable~
+@104 = ~~
+@105 = ~Armor Skin~
+@106 = ~~
+@107 = ~Summon Undead~
+@108 = ~~
+@109 = ~Inward Eyes~
+@110 = ~~
+@111 = ~Encouragement~
+@112 = ~~
+@113 = ~Knock~
+@114 = ~~
+@115 = ~Smite Evil~
+@116 = ~~
+@117 = ~Tempest~
+@118 = ~~
+@119 = ~Blindness~
+@120 = ~~
+@121 = ~Impromptu Backstab~
+@122 = ~~
+@123 = ~Hide in Plain Sight~
+@124 = ~~
+@125 = ~Summon Shadows~
+@126 = ~~
+@127 = ~Red Dragon Fire Breath~
+@128 = ~~
+@129 = ~Blue Dragon Lightning Breath~
+@130 = ~~
+@131 = ~Green Dragon Acid Breath~
+@132 = ~~
+@133 = ~White Dragon Cold Breath~
+@134 = ~~
+@135 = ~Acrobatic Attack~
+@136 = ~~
+@137 = ~Shield~
+@138 = ~Shield (Evocation) 
+Level: 1
+Range: 0 
+Duration: 5 turns
+Casting Time: 1 
+Area of Effect: caster
+Saving Throw: None
+
+When this spell is cast, an invisible barrier comes into being in front of the paladin.  It sets the paladin's armor class to 4 against all melee weapons, and 2 against missile weapons.  It also grants the paladin immunity from the spell Magic Missile.  The effect lasts for the duration of the spell or until dispelled.~
+@139 = ~Friends~
+@140 = ~Friends (Enchantment/Charm) 
+Level: 1
+Range: 0 
+Duration: 1 turn 
+Casting Time: 1 
+Area of Effect: caster 
+Saving Throw: Special 
+
+A friends spell causes the paladin to temporarily gain 6 points of Charisma. Those who view the caster tend to be very impressed with the spellcaster and make an effort to be his friends and help him, as appropriate to the situation. Officious bureaucrats might decide to become helpful; surly gate guards might wax informative; attacking orcs might spare the caster's life, taking him captive instead.~
+@141 = ~Find Familiar~
+@142 = ~Find Familiar 
+(Conjuration/Summoning)
+Level: 1
+Range: n/a
+Duration: Special
+Casting Time: 1 round
+Area of Effect: 1 familiar
+Saving Throw: Special
+
+This spell enables the caster to attempt to summon a familiar to act as his aide and companion.  Familiars are typically small creatures.  A creature acting as a familiar can benefit a paladin, conveying its sensory powers to its master, conversing with him, and serving as a guard/scout/spy as well.  A paladin can have only one familiar at a time, and he has no control over what sort of creature answers the summoning, if any come at all.  
+(Note:This spell may only be cast by the protagonist.)
+The creature is always more intelligent than others of its type (typically by 2 or 3 Intelligence points), and its bond with the paladin confers upon it an exceptionally long life. 
+The paladin has an empathic link with the familiar and can issue it mental commands. 
+The caster receives half the familiars total hit points as bonus hit points.  However the caster must take care to treat his familiar well, for if the familiar should die, the caster loses the bonus hit-points and half the familiar's hit-points again as damage.  Also when a familiar dies, the caster loses 1 point of constitution PERMANENTLY.
+
+Example: A paladin has 12 hit points and casts find familiar. The imp summoned has 18 hit points, so the caster gets a bonus of 9 hit points.  The caster now has 21 hit points.  If the familiar dies the caster loses those 9 hit points (putting him back at 12), 1 point of constitution permanently (which may cause additional hit point loss), and takes 9 damage.
+
+Here is your familiar:
+
+Pseudo Dragon
+Armor Class: -2
+Hit Points: 24
+Magic Resistance: 50%
+Special abilities: 2 attacks per round at THACO: 13 for 1-3 damage.  Save or be rendered unconscious for 2 turns.
+
+Note: Each familiar has the Pick Pockets ability with varying degrees of proficiency.~
+@143 = ~Mirror Image~
+@144 = ~Mirror Image (Illusion/Phantasm) 
+Level: 2
+Range: 0 
+Duration: 1 turn
+Casting Time: 1
+Area of Effect: Special
+Saving Throw: None 
+
+When a mirror image spell is invoked, the spellcaster causes five exact duplicates of himself to come into being around him. These images do exactly what the paladin does. Since the spell causes a blurring and slight distortion when it is cast, it is impossible for opponents to be certain which are the illusions and which is the actual paladin. When an image is struck by a melee or missile attack, magical or otherwise, it disappears, but any other existing images remain intact until they are struck.  However, it is important to note that this will not protect the caster against every attack as it is possible for an enemy to choose the real caster amongst all the images.~
+@145 = ~Ghost Armor~
+@146 = ~Ghost Armor 
+(Conjuration/Summoning)
+Level: 2
+Range:  0
+Duration: 5 turns
+Casting Time: 1 
+Area of Effect: The caster
+Saving Throw: None 
+
+By means of this spell, the paladin creates a magical field of force that serves as if it were field plate armor (AC 2). It is cumulative with Dexterity and, in the case of fighter/mages, with the shield bonus. The armor spell does not hinder movement, adds no weight or encumbrance, nor does it prevent spellcasting. It lasts until successfully dispelled or until the duration runs out.~
+@147 = ~Lightning Bolt~
+@148 = ~Lightning Bolt (Evocation) 
+Level: 2
+Range: 80 yards
+Duration: Instantaneous 
+Casting Time: 3 
+Area of Effect: Special 
+Saving Throw: 1/2
+
+Upon casting this spell, the paladin releases a powerful stroke of electrical energy that inflicts 8d6 points of damage to each creature within its area of effect. A successful saving throw vs. spell reduces this damage to half (round fractions down). The bolt begins at a range and height decided by the caster and streaks outward in a direct line from the casting paladin (e.g., if a 40-foot bolt was started at 180 feet from the paladin, the far end of bolt would reach 220 feet (180 + 40).  If the lightning bolt intersects with a wall it will bounce until it reaches its full length.~
+@149 = ~Sunfire~
+@150 = ~Sunfire (Evocation) 
+Level: 3
+Range: Caster 
+Duration: Instantaneous 
+Casting Time: 3 
+Area of Effect: 30-foot radius 
+Saving Throw: 1/2 
+
+A sunfire is like a fireball -- an explosive burst of flame, which detonates with a low roar and delivers damage 12d6. The paladin gestures with his hand and the entire area around him erupts in flames, striking all except for the caster.  Creatures failing their saving throws each suffer full damage from the blast. Those who roll successful saving throws manage to dodge, fall flat, or roll aside, each receiving half.~
+@151 = ~Cone of Cold~
+@152 = ~Cone of Cold (Evocation) 
+Level: 3
+Range: 0 
+Duration: Instantaneous 
+Casting Time: 5 
+Area of Effect: Special 
+Saving Throw: 1/2
+
+When this spell is cast, it causes a cone-shaped area of extreme cold, originating at the paladin's hand and extending outward in a cone. It drains heat and causes 15d4 + 15 points of damage.~
+@153 = ~Lower Resistance~
+@154 = ~Lower Resistance (Abjuration,Alteration) 
+Level: 3
+Range: Visual sight of caster 
+Duration: 15 rounds
+Casting Time: 5
+Area of Effect: Target creature
+Saving Throw: None
+
+When cast upon a target creature this spell will lower the magic resistance of this creature by 15%.  There is no saving throw vs. this spell and magic resistance is ignored.  For example if a creature has 60% magic resistance and this spell is cast on it then its magic resistance would be lowered by 25% automatically.  This effect is cumulative for each casting of this spell.  If this spell was cast upon this same creature again the creatures magic resistance would be 60% - 25% (initial casting) - 25% (current casting) which would leave the creature with 10% magic resistance after both spells have been cast.  This spell will last until the spell duration expires.  Something to note is that this spell is not affected by dispel magic.  Once it has been cast there is no way to cancel the effects until the spell expires.~
+@155 = ~True Sight~
+@156 = ~True Sight (Divination) 
+Level: 4
+Range: 0
+Duration: 1 turn
+Casting Time: 8
+Area of Effect: 70' radius
+Saving Throw: None 
+
+When this spell is cast, an area roughly 70 feet in radius around the caster will be effected.  Instantly and once each round for 1 turn after this spell is cast, all hostile illusion/phantasm spells in the area of effect will be dispelled.  The spells that are affected by this are: Refected Image, Invisibility, Mirror Image, Non-detection, Improved Invisibility, Shadow Door, Mislead, Project Image, and Simulacrum.  The area of effect is roughly a 70' radius around the caster.  The target's magic resistance, if any, does not come into effect with this spell.  This spell only affects enemies, thus it is unable to dispel the invisibility from a party member.~
+@157 = ~Contingency~
+@158 = ~Contingency (Evocation) 
+Level: 4
+Range: Visual range of caster
+Duration: 18 days
+Casting Time: 1 turn
+Area of Effect: Special 
+Saving Throw: None
+
+Upon casting this spell the paladin is allowed to choose a spell out of his repertoire of known spells. 10 spell level for every three levels of the caster is allowed up to 18th level or 6th level spells.  Once the spell is chosen the caster is allowed to choose a condition of some kind from the list provided.  The starting condition can be anything from reaching 10% of his/her hit points to an enemy being sighted.  Once this starting condition is satisfied the spell that was chosen will be cast automatically.  For example a 12th level paladin could place the spell stoneskin in a contingency with the starting condition being 'the paladin reaches 50% of his hit points'.  Then in combat once the paladin is reduced to 50% of his hit points or below, stoneskin would be immediately cast upon him.  This requires no action by the paladin, it happens automatically and instantaneously.  The limitation of this spell is that the target of the spell placed in the contingency must be the caster.  Therefor it cannot be an offensive spell and cannot target any other party members.~
+@159 = ~Spell Deflection~
+@160 = ~Spell Deflection (Abjuration) 
+Level: 4
+Range: 0 
+Duration: 6 turns
+Casting Time: 6
+Area of Effect: The caster 
+Saving Throw: None 
+
+This powerful abjuration spell causes any spells cast against the paladin to be absorbed and consumed.  This affects a total of 10 spell levels.  This includes spells cast from scrolls and innate spell-like abilities, but excludes the following: area effects that are not centered directly upon the paladin as well as area effects that are stationary such as cloud kill and stinking cloud.  As long as the spell is cast directly at the paladin it will be absorbed.  Something to note is that as long as there are levels remaining then the spell will be absorbed.  For example if there is only 1 level left and a 3rd-level spell is cast at the paladin, the spell will be absorbed while canceling the spell deflection.  It is not affected by a dispel magic.~
+@161 = ~Bruning Hands~
+@162 = ~~
+@163 = ~Shocking Grasp~
+@164 = ~~
+@165 = ~Chromatic Orb~
+@166 = ~~
+@167 = ~Chill Touch~
+@168 = ~~
+@169 = ~Agannazar's Scorcher~
+@170 = ~~
+@171 = ~Lightning Bolt~
+@172 = ~~
+@173 = ~Melf's Acid Arrow~
+@174 = ~~
+@175 = ~Slow~
+@176 = ~~
+@177 = ~Fireball~
+@178 = ~~
+@179 = ~Call Lightning~
+@180 = ~~
+@181 = ~Contagion~
+@182 = ~~
+@183 = ~Ice Storm~
+@184 = ~~
+@185 = ~Assimilation~
+@186 = ~~
+@187 = ~Fire Assimilation~
+@188 = ~~
+@189 = ~Electrical Assimilation~
+@190 = ~~
+@191 = ~Acid Assimilation~
+@192 = ~~
+@193 = ~Cold Assimilation~
+@194 = ~~
+@195 = ~Ascension~
+@196 = ~~
+@197 = ~Conjure Lesser Fire Elemental~
+@198 = ~Conjure Lesser Fire Elemental 
+(Conjuration/Summoning) 
+Level: 5
+Range: 15 yards
+Duration: 1 turn
+Casting Time: Special
+Area of Effect: Special 
+Saving Throw: None 
+
+A caster who performs a conjure lesser fire elemental spell summons a fire elemental to do his bidding.  The elemental is 8 Hit Dice and will serve the caster's every whim until banished back to its home plane, the spell duration expires, or upon the elementals death.~
+@199 = ~Conjure Lesser Air Elemental~
+@200 = ~Conjure Lesser Air Elemental 
+(Conjuration/Summoning) 
+Level: 3
+Range: 15 yards
+Duration: 1 turn
+Casting Time: Special
+Area of Effect: Special 
+Saving Throw: None 
+
+A caster who performs a conjure lesser air elemental spell summons an air elemental to do his bidding.  The elemental is 8 Hit Dice and will serve the casters every whim until banished back to its home plane, the spell duration expires, or upon the elementals death.~
+@201 = ~Conjure Lesser Earth Elemental~
+@202 = ~Conjure Lesser Earth Elemental 
+(Conjuration/Summoning) 
+Level: 3
+Range: 15 yards
+Duration: 1 turn
+Casting Time: Special
+Area of Effect: Special 
+Saving Throw: None 
+
+A caster who performs a conjure lesser earth elemental spell summons a earth elemental to do his bidding.  The elemental is 8 Hit Dice and will serve the casters every whim until banished back to its home plane, the spell duration expires or upon the elementals death.~
+@203 = ~~
+@204 = ~~
+@205 = ~~
+@206 = ~~
+@207 = ~~
+@208 = ~~
+@209 = ~~
+@210 = ~~
+@211 = ~~
+@212 = ~~
+@213 = ~~
+@214 = ~~
+@215 = ~~
+@216 = ~~
+@217 = ~~
+@218 = ~~
+@219 = ~~
+@220 = ~~
