@@ -16,5 +16,5 @@ Ce pack ajoute 17 kits dans les jeux IE :
 - Maître des ombres (voleur)
 - Disciple du dragon rouge (barde)
 - Disciple du dragon bleu (barde)
-- Disciple du dragon bleu vert (barde)
+- Disciple du dragon vert (barde)
 - Disciple du dragon blanc (barde)
